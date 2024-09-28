@@ -1,0 +1,37 @@
+Busca los valores que codifican los siguientes colores y exprésalos en decimal, binario y en hexadecimal: magenta, purple, white y black.
+
+- Magenta:
+
++ Decimal: (255, 0, 255)
+
++ Binario: 1111 1111 0000 0000 1111 1111
+
++ Hexadecimal: #FF00FF
+
+
+
+- Purple:
+
++ Decimal: (128, 0, 128)
+
++ Binario: 1000 0000 0000 0000 1000 0000
+
++ Hexadecimal: #800080
+
+
+- White:
+
++ Decimal:  (255, 255, 255)
+
++ Binario: 1111 1111 1111 1111 1111 1111
+
++ Hexadecimal: #FFFFFF
+
+
+- Black:
+
++ Decimal: (0, 0, 0)
+
++ Binario:  0000 0000 0000 0000 0000 0000
+
++ Hexadecimal: #000000

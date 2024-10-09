@@ -1,0 +1,3 @@
+Esta frase tiene 10 vocales.
+Esta frase, por el contrario, tiene 16 vocales.
+Esta tiene 8 vocales.

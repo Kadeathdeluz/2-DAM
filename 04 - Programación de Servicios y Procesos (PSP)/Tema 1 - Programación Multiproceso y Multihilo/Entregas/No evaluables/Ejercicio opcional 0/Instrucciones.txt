@@ -1,0 +1,5 @@
+Realizar la instalación del Visual Studio Code y Python 3.
+
+https://learn.microsoft.com/es-es/training/modules/python-install-vscode/
+
+Adjunta una captura con la ejecución de un programa sencillo en python con VSCode.

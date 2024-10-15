@@ -20,17 +20,30 @@ if __name__ == "__main__":
     
     # Path to workspace, first .parent goes to ".../opcional" and the second one goes to ".../VSC - Python"
     workSpacePath = Path(__file__).parent.parent
-    # From there we try to access the file
+    # Now we try to access the file
     try:
-        # phrasesFile contains the phrases (r to read the document)
-        phrasesFile = open(workSpacePath/"resources/phrases.txt","r")
+        # fileToRead contains the phrases ("r" to read the document)
+        fileToRead = open(workSpacePath/"resources/phrases.txt","r")
+        # fileToWrite contains the vowelCount of every phrase ("w" to write the document)
+        fileToWrite = open(workSpacePath/"resources/vowelsCount.txt","w")
+        # fileToWrite = open(workSpacePath/"resources/vowelsCount.txt","a") #this can be used as an optional solution (using append mode "a")
+
         # Call vowelCount(phrase) on every phrase like this:
-        for phrase in phrasesFile.readlines():
-            # vowelCount of the current phrase adds to totalCount
-            totalCount = vowelCount(phrase)
-            #@TODO: Sustituir por escritura en nuevo fichero
-            print("Frase", line,":", totalCount, "vocales")
+        for phrase in fileToRead.readlines():
+            # vowelCount of the current phrase
+            currentCount = vowelCount(phrase)
+            # Text that contains the number of vowels in a phrase like "Frase X: Y vocales" where X is the line number and Y is the vowelCount
+            text = "Frase " + str(line) + ": " + str(currentCount)
+            fileToWrite.write(text)
+            fileToWrite.write("\n")
             line += 1
+        print("Documento creado/modificado correctamente.")
+
     except OSError as e:
         print(f"File: ",e)
+
+    finally:
+        # Finally closes the files
+        fileToRead.close()
+        fileToWrite.close()
 # Los comentarios y variables están en inglés para practicar, pero los textos están en español por el usuario

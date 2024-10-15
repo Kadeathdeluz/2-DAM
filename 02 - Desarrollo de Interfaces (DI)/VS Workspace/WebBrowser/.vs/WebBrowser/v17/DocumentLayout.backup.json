@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Curso 2\\2-DAM\\02 - Desarrollo de Interfaces (DI)\\VS Workspace\\WebBrowser\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9932DC0D-59B0-4997-943D-7ECF40D86420}|WebBrowser\\WebBrowser.csproj|c:\\users\\usuario\\onedrive\\escritorio\\curso 2\\2-dam\\02 - desarrollo de interfaces (di)\\vs workspace\\webbrowser\\webbrowser\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9932DC0D-59B0-4997-943D-7ECF40D86420}|WebBrowser\\WebBrowser.csproj|solutionrelative:webbrowser\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Curso 2\\2-DAM\\02 - Desarrollo de Interfaces (DI)\\VS Workspace\\WebBrowser\\WebBrowser\\Form1.cs",
+              "RelativeDocumentMoniker": "WebBrowser\\Form1.cs",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Curso 2\\2-DAM\\02 - Desarrollo de Interfaces (DI)\\VS Workspace\\WebBrowser\\WebBrowser\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "WebBrowser\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T18:23:28.079Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

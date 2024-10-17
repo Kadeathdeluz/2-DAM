@@ -1,5 +1,4 @@
 import threading
-import time
 
 # Método que
 def tarea_animal(nombre, patas, vuela):
@@ -7,10 +6,7 @@ def tarea_animal(nombre, patas, vuela):
     informacion = f"{nombre} es un animal con {patas} patas y {vuelo}."
     print(informacion)
 
-#Desarrollar el método principal para ejecutar la tarea anterior con un hilo para cada animal,
-# se deben crear, iniciar y esperar a que terminen todos los hilos.
-# Se deben utilizar bucles y listas para solucionar el ejercicio.
-# Main
+# Main: se crean 3 hilos, se inician, ejecutan el método tarea_animal y esperan a que todos terminen
 if __name__ == "__main__":
 
     #Listas a utilizar
@@ -21,9 +17,11 @@ if __name__ == "__main__":
     # Lista que contendrá los hilos
     hilos = []
 
-    #Crea 3 hilos, los almacena en la lista y ejecuta la función en paralelo (3 veces, una por hilo)
+    #Crea 3 hilos (animales con su nombre) y ejecuta el método tarea_animal() para cada uno
     for i in range(3):
-        nuevo_hilo = threading.Thread(target=hilo_hace, args=(i,phrase,))
-        hilos.append(nuevo_hilo)
-        nuevo_hilo.start()
+        nuevo_animal = threading.Thread(target=tarea_animal(animales[i],patas[i], vuela[i]))
+        nuevo_animal.name = animales[i]
+        hilos.append(nuevo_animal)
+        nuevo_animal.start()
+        nuevo_animal.join()
 

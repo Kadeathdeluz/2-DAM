@@ -1,0 +1,232 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.8.0">
+  <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
+    <mxGraphModel dx="3434" dy="1404" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dNxyNK7c78bLwvsdeMH5-11" value="Mutiny Systems - Organigrama" style="swimlane;html=1;startSize=20;horizontal=1;containerType=tree;glass=0;labelBackgroundColor=none;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-460" y="80" width="2050" height="580" as="geometry">
+            <mxRectangle x="40" y="80" width="110" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Elena Sanchis&lt;br&gt;&lt;font color=&quot;#808080&quot;&gt;&lt;i&gt;CEO&lt;/i&gt;&lt;/font&gt;" name="Tessa Miller" position="CFO" location="Office 1" email="me@example.com" placeholders="1" link="https://www.draw.io" id="dNxyNK7c78bLwvsdeMH5-12">
+          <mxCell style="label;image=https://cdn3.iconfinder.com/data/icons/user-avatars-1/512/users-3-128.png;whiteSpace=wrap;html=1;rounded=0;glass=0;treeMoving=1;treeFolding=1;labelBackgroundColor=none;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="dNxyNK7c78bLwvsdeMH5-11" vertex="1">
+            <mxGeometry x="940" y="55" width="180" height="70" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="dNxyNK7c78bLwvsdeMH5-13" value="" style="endArrow=blockThin;endFill=1;fontSize=11;edgeStyle=elbowEdgeStyle;elbow=vertical;rounded=0;labelBackgroundColor=none;fontColor=default;" parent="dNxyNK7c78bLwvsdeMH5-11" source="dNxyNK7c78bLwvsdeMH5-12" target="dNxyNK7c78bLwvsdeMH5-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Carlos Alfonso&lt;div&gt;&lt;font color=&quot;#808080&quot;&gt;&lt;i&gt;Director de Desarrollo&lt;/i&gt;&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" name="Edward Morrison" position="Brand Manager" location="Office 2" email="me@example.com" placeholders="1" link="https://www.draw.io" id="dNxyNK7c78bLwvsdeMH5-14">
+          <mxCell style="label;image=https://cdn3.iconfinder.com/data/icons/user-avatars-1/512/users-10-3-128.png;whiteSpace=wrap;html=1;rounded=0;glass=0;treeFolding=1;treeMoving=1;labelBackgroundColor=none;fillColor=#fff2cc;strokeColor=#d6b656;" parent="dNxyNK7c78bLwvsdeMH5-11" vertex="1">
+            <mxGeometry x="47" y="185" width="194" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="dNxyNK7c78bLwvsdeMH5-15" value="" style="endArrow=blockThin;endFill=1;fontSize=11;edgeStyle=elbowEdgeStyle;elbow=vertical;rounded=0;labelBackgroundColor=none;fontColor=default;" parent="dNxyNK7c78bLwvsdeMH5-11" source="dNxyNK7c78bLwvsdeMH5-12" target="dNxyNK7c78bLwvsdeMH5-16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Juan Pérez&lt;div&gt;&lt;font color=&quot;#808080&quot;&gt;&lt;i&gt;Gerente de&amp;nbsp;&lt;/i&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#808080&quot;&gt;&lt;i&gt;Soporte Técnico&lt;/i&gt;&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" name="Evan Valet" position="HR Director" location="Office 4" email="me@example.com" placeholders="1" link="https://www.draw.io" id="dNxyNK7c78bLwvsdeMH5-16">
+          <mxCell style="label;image=https://cdn3.iconfinder.com/data/icons/user-avatars-1/512/users-9-2-128.png;whiteSpace=wrap;html=1;rounded=0;glass=0;treeFolding=1;treeMoving=1;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="dNxyNK7c78bLwvsdeMH5-11" vertex="1">
+            <mxGeometry x="940" y="185" width="180" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="dNxyNK7c78bLwvsdeMH5-17" value="" style="endArrow=blockThin;endFill=1;fontSize=11;edgeStyle=elbowEdgeStyle;elbow=vertical;rounded=0;labelBackgroundColor=none;fontColor=default;" parent="dNxyNK7c78bLwvsdeMH5-11" source="dNxyNK7c78bLwvsdeMH5-12" target="dNxyNK7c78bLwvsdeMH5-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="%name%&lt;br&gt;&lt;i style=&quot;color: gray&quot;&gt;%position%&lt;/i&gt;&lt;br&gt;&lt;a href=&quot;mailto:%email%&quot;&gt;Email&lt;/a&gt;" name="Alison Donovan" position="System Admin" location="Office 3" email="me@example.com" placeholders="1" link="https://www.draw.io" id="dNxyNK7c78bLwvsdeMH5-18">
+          <mxCell style="label;image=https://cdn3.iconfinder.com/data/icons/user-avatars-1/512/users-2-128.png;whiteSpace=wrap;html=1;rounded=0;glass=0;labelBackgroundColor=none;" parent="dNxyNK7c78bLwvsdeMH5-11" vertex="1">
+            <mxGeometry x="1820" y="185" width="180" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="T0OU9hSGY2hTBpNF0slO-12" value="" style="endArrow=blockThin;endFill=1;fontSize=11;edgeStyle=elbowEdgeStyle;elbow=vertical;rounded=0;labelBackgroundColor=none;fontColor=default;" parent="dNxyNK7c78bLwvsdeMH5-11" target="T0OU9hSGY2hTBpNF0slO-13" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="371" y="155" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Joana Pereira&lt;div&gt;&lt;i style=&quot;color: gray&quot;&gt;Directora de Diseño&lt;/i&gt;&lt;br&gt;&lt;a href=&quot;mailto:me@example.com&quot;&gt;Email&lt;/a&gt;&lt;/div&gt;" name="Evan Valet" position="HR Director" location="Office 4" email="me@example.com" placeholders="1" link="https://www.draw.io" id="T0OU9hSGY2hTBpNF0slO-13">
+          <mxCell style="label;image=https://cdn3.iconfinder.com/data/icons/user-avatars-1/512/users-9-2-128.png;whiteSpace=wrap;html=1;rounded=0;glass=0;treeFolding=1;treeMoving=1;labelBackgroundColor=none;" parent="dNxyNK7c78bLwvsdeMH5-11" vertex="1">
+            <mxGeometry x="281" y="185" width="180" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="T0OU9hSGY2hTBpNF0slO-14" value="" style="endArrow=blockThin;endFill=1;fontSize=11;edgeStyle=elbowEdgeStyle;elbow=vertical;rounded=0;labelBackgroundColor=none;fontColor=default;" parent="dNxyNK7c78bLwvsdeMH5-11" target="T0OU9hSGY2hTBpNF0slO-15" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="591" y="155" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Evan Valet&lt;br&gt;&lt;i style=&quot;color: gray&quot;&gt;HR Director&lt;/i&gt;&lt;br&gt;&lt;a href=&quot;mailto:me@example.com&quot;&gt;Email&lt;/a&gt;" name="Evan Valet" position="HR Director" location="Office 4" email="me@example.com" placeholders="1" link="https://www.draw.io" id="T0OU9hSGY2hTBpNF0slO-15">
+          <mxCell style="label;image=https://cdn3.iconfinder.com/data/icons/user-avatars-1/512/users-9-2-128.png;whiteSpace=wrap;html=1;rounded=0;glass=0;treeFolding=1;treeMoving=1;labelBackgroundColor=none;" parent="dNxyNK7c78bLwvsdeMH5-11" vertex="1">
+            <mxGeometry x="501" y="185" width="180" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="T0OU9hSGY2hTBpNF0slO-16" value="" style="endArrow=blockThin;endFill=1;fontSize=11;edgeStyle=elbowEdgeStyle;elbow=vertical;rounded=0;labelBackgroundColor=none;fontColor=default;" parent="dNxyNK7c78bLwvsdeMH5-11" target="T0OU9hSGY2hTBpNF0slO-17" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="811" y="155" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Evan Valet&lt;br&gt;&lt;i style=&quot;color: gray&quot;&gt;HR Director&lt;/i&gt;&lt;br&gt;&lt;a href=&quot;mailto:me@example.com&quot;&gt;Email&lt;/a&gt;" name="Evan Valet" position="HR Director" location="Office 4" email="me@example.com" placeholders="1" link="https://www.draw.io" id="T0OU9hSGY2hTBpNF0slO-17">
+          <mxCell style="label;image=https://cdn3.iconfinder.com/data/icons/user-avatars-1/512/users-9-2-128.png;whiteSpace=wrap;html=1;rounded=0;glass=0;treeFolding=1;treeMoving=1;labelBackgroundColor=none;" parent="dNxyNK7c78bLwvsdeMH5-11" vertex="1">
+            <mxGeometry x="721" y="185" width="180" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="T0OU9hSGY2hTBpNF0slO-18" value="" style="endArrow=blockThin;endFill=1;fontSize=11;edgeStyle=elbowEdgeStyle;elbow=vertical;rounded=0;labelBackgroundColor=none;fontColor=default;" parent="dNxyNK7c78bLwvsdeMH5-11" target="T0OU9hSGY2hTBpNF0slO-19" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1251" y="155" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Luís Costa&lt;br&gt;&lt;font color=&quot;#808080&quot;&gt;&lt;i&gt;Director de Finanzas&lt;/i&gt;&lt;/font&gt;" name="Evan Valet" position="HR Director" location="Office 4" email="me@example.com" placeholders="1" link="https://www.draw.io" id="T0OU9hSGY2hTBpNF0slO-19">
+          <mxCell style="label;image=https://cdn3.iconfinder.com/data/icons/user-avatars-1/512/users-9-2-128.png;whiteSpace=wrap;html=1;rounded=0;glass=0;treeFolding=1;treeMoving=1;labelBackgroundColor=none;fillColor=#f8cecc;strokeColor=#b85450;" parent="dNxyNK7c78bLwvsdeMH5-11" vertex="1">
+            <mxGeometry x="1161" y="185" width="180" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="T0OU9hSGY2hTBpNF0slO-21" value="" style="endArrow=blockThin;endFill=1;fontSize=11;edgeStyle=elbowEdgeStyle;elbow=vertical;rounded=0;labelBackgroundColor=none;fontColor=default;" parent="dNxyNK7c78bLwvsdeMH5-11" target="T0OU9hSGY2hTBpNF0slO-22" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1471" y="155" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Andrés Delgado&lt;div&gt;&lt;font color=&quot;#808080&quot;&gt;&lt;i&gt;CTO&lt;/i&gt;&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" name="Evan Valet" position="HR Director" location="Office 4" email="me@example.com" placeholders="1" link="https://www.draw.io" id="T0OU9hSGY2hTBpNF0slO-22">
+          <mxCell style="label;image=https://cdn3.iconfinder.com/data/icons/user-avatars-1/512/users-9-2-128.png;whiteSpace=wrap;html=1;rounded=0;glass=0;treeFolding=1;treeMoving=1;labelBackgroundColor=none;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="dNxyNK7c78bLwvsdeMH5-11" vertex="1">
+            <mxGeometry x="1381" y="185" width="180" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="T0OU9hSGY2hTBpNF0slO-23" value="" style="endArrow=blockThin;endFill=1;fontSize=11;edgeStyle=elbowEdgeStyle;elbow=vertical;rounded=0;labelBackgroundColor=none;fontColor=default;" parent="dNxyNK7c78bLwvsdeMH5-11" target="T0OU9hSGY2hTBpNF0slO-24" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1691" y="155" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Tomás Vidal&lt;br&gt;&lt;font color=&quot;#808080&quot;&gt;&lt;i&gt;Director de Producción&lt;/i&gt;&lt;/font&gt;" name="Evan Valet" position="HR Director" location="Office 4" email="me@example.com" placeholders="1" link="https://www.draw.io" id="T0OU9hSGY2hTBpNF0slO-24">
+          <mxCell style="label;image=https://cdn3.iconfinder.com/data/icons/user-avatars-1/512/users-9-2-128.png;whiteSpace=wrap;html=1;rounded=0;glass=0;treeFolding=1;treeMoving=1;labelBackgroundColor=none;fillColor=#d0cee2;strokeColor=#56517e;" parent="dNxyNK7c78bLwvsdeMH5-11" vertex="1">
+            <mxGeometry x="1601" y="185" width="180" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Joana Pereira&lt;br&gt;&lt;font color=&quot;#808080&quot;&gt;&lt;i&gt;Directora de&amp;nbsp;&lt;/i&gt;&lt;/font&gt;&lt;i style=&quot;color: rgb(128, 128, 128); background-color: initial;&quot;&gt;Diseño&lt;/i&gt;" name="Tessa Miller" position="CFO" location="Office 1" email="me@example.com" placeholders="1" link="https://www.draw.io" id="T0OU9hSGY2hTBpNF0slO-28">
+          <mxCell style="label;image=https://cdn3.iconfinder.com/data/icons/user-avatars-1/512/users-3-128.png;whiteSpace=wrap;html=1;rounded=0;glass=0;treeMoving=1;treeFolding=1;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=#82b366;" parent="dNxyNK7c78bLwvsdeMH5-11" vertex="1">
+            <mxGeometry x="281" y="185" width="186" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Beatriz Silva&lt;br&gt;&lt;font color=&quot;#808080&quot;&gt;&lt;i&gt;Directora de Marketing&lt;/i&gt;&lt;/font&gt;" name="Tessa Miller" position="CFO" location="Office 1" email="me@example.com" placeholders="1" link="https://www.draw.io" id="T0OU9hSGY2hTBpNF0slO-29">
+          <mxCell style="label;image=https://cdn3.iconfinder.com/data/icons/user-avatars-1/512/users-3-128.png;whiteSpace=wrap;html=1;rounded=0;glass=0;treeMoving=1;treeFolding=1;labelBackgroundColor=none;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="dNxyNK7c78bLwvsdeMH5-11" vertex="1">
+            <mxGeometry x="501" y="185" width="186" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="María Fernández&lt;br&gt;&lt;font color=&quot;#808080&quot;&gt;&lt;i&gt;Gerente de RRHH&lt;/i&gt;&lt;/font&gt;" name="Tessa Miller" position="CFO" location="Office 1" email="me@example.com" placeholders="1" link="https://www.draw.io" id="T0OU9hSGY2hTBpNF0slO-30">
+          <mxCell style="label;image=https://cdn3.iconfinder.com/data/icons/user-avatars-1/512/users-3-128.png;whiteSpace=wrap;html=1;rounded=0;glass=0;treeMoving=1;treeFolding=1;labelBackgroundColor=none;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" parent="dNxyNK7c78bLwvsdeMH5-11" vertex="1">
+            <mxGeometry x="721" y="185" width="186" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Clara Ramos&lt;div&gt;&lt;font color=&quot;#808080&quot;&gt;&lt;i&gt;Directora de I+D+i&lt;/i&gt;&lt;/font&gt;&lt;/div&gt;" name="Tessa Miller" position="CFO" location="Office 1" email="me@example.com" placeholders="1" link="https://www.draw.io" id="T0OU9hSGY2hTBpNF0slO-31">
+          <mxCell style="label;image=https://cdn3.iconfinder.com/data/icons/user-avatars-1/512/users-3-128.png;whiteSpace=wrap;html=1;rounded=0;glass=0;treeMoving=1;treeFolding=1;labelBackgroundColor=none;fillColor=#bac8d3;strokeColor=#23445d;" parent="dNxyNK7c78bLwvsdeMH5-11" vertex="1">
+            <mxGeometry x="1820" y="185" width="187" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div&gt;Jefe de Proyecto&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#808080&quot;&gt;&lt;i&gt;Desarrollo/Diseño&lt;/i&gt;&lt;/font&gt;&lt;/div&gt;" name="Edward Morrison" position="Brand Manager" location="Office 2" email="me@example.com" placeholders="1" link="https://www.draw.io" id="T0OU9hSGY2hTBpNF0slO-32">
+          <mxCell style="label;image=https://cdn3.iconfinder.com/data/icons/user-avatars-1/512/users-4-128.png;whiteSpace=wrap;html=1;rounded=0;glass=0;treeFolding=1;treeMoving=1;labelBackgroundColor=none;fillColor=#fff2cc;strokeColor=#d6b656;" parent="dNxyNK7c78bLwvsdeMH5-11" vertex="1">
+            <mxGeometry x="47" y="305" width="194" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Desarrolladores&lt;div&gt;&lt;i style=&quot;color: rgb(128, 128, 128); background-color: initial;&quot;&gt;Desarrollo&lt;/i&gt;&lt;/div&gt;" name="Edward Morrison" position="Brand Manager" location="Office 2" email="me@example.com" placeholders="1" link="https://www.draw.io" id="T0OU9hSGY2hTBpNF0slO-33">
+          <mxCell style="label;image=https://cdn3.iconfinder.com/data/icons/user-avatars-1/512/users-10-3-128.png;whiteSpace=wrap;html=1;rounded=0;glass=0;treeFolding=1;treeMoving=1;labelBackgroundColor=none;fillColor=#fff2cc;strokeColor=#d6b656;" parent="dNxyNK7c78bLwvsdeMH5-11" vertex="1">
+            <mxGeometry x="47" y="425" width="194" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="T0OU9hSGY2hTBpNF0slO-34" value="" style="endArrow=blockThin;endFill=1;fontSize=11;edgeStyle=elbowEdgeStyle;elbow=vertical;rounded=0;labelBackgroundColor=none;fontColor=default;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="dNxyNK7c78bLwvsdeMH5-11" source="dNxyNK7c78bLwvsdeMH5-14" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="143.76" y="275" as="sourcePoint" />
+            <mxPoint x="143.76" y="305" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T0OU9hSGY2hTBpNF0slO-35" value="" style="endArrow=blockThin;endFill=1;fontSize=11;edgeStyle=elbowEdgeStyle;elbow=vertical;rounded=0;labelBackgroundColor=none;fontColor=default;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="dNxyNK7c78bLwvsdeMH5-11" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="144" y="385" as="sourcePoint" />
+            <mxPoint x="143.76" y="425" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Empleado de RRHH&lt;div&gt;&lt;font color=&quot;#808080&quot;&gt;&lt;i&gt;RRHH&lt;/i&gt;&lt;/font&gt;&lt;/div&gt;" name="Edward Morrison" position="Brand Manager" location="Office 2" email="me@example.com" placeholders="1" link="https://www.draw.io" id="OrQCqj91jotXMx3GbjZq-1">
+          <mxCell style="label;image=https://cdn3.iconfinder.com/data/icons/user-avatars-1/512/users-1-128.png;whiteSpace=wrap;html=1;rounded=0;glass=0;treeFolding=1;treeMoving=1;labelBackgroundColor=none;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
+            <mxGeometry x="717" y="305" width="194" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="OrQCqj91jotXMx3GbjZq-2" value="" style="endArrow=blockThin;endFill=1;fontSize=11;edgeStyle=elbowEdgeStyle;elbow=vertical;rounded=0;labelBackgroundColor=none;fontColor=default;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="814" y="265" as="sourcePoint" />
+            <mxPoint x="813.76" y="305" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Soporte técnico&lt;div&gt;&lt;font color=&quot;#808080&quot;&gt;&lt;i&gt;Soporte técnico&lt;/i&gt;&lt;/font&gt;&lt;/div&gt;" name="Edward Morrison" position="Brand Manager" location="Office 2" email="me@example.com" placeholders="1" link="https://www.draw.io" id="OrQCqj91jotXMx3GbjZq-3">
+          <mxCell style="label;image=https://cdn3.iconfinder.com/data/icons/user-avatars-1/512/users-1-128.png;whiteSpace=wrap;html=1;rounded=0;glass=0;treeFolding=1;treeMoving=1;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
+            <mxGeometry x="930" y="305" width="194" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="OrQCqj91jotXMx3GbjZq-4" value="" style="endArrow=blockThin;endFill=1;fontSize=11;edgeStyle=elbowEdgeStyle;elbow=vertical;rounded=0;labelBackgroundColor=none;fontColor=default;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1027" y="265" as="sourcePoint" />
+            <mxPoint x="1026.76" y="305" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OrQCqj91jotXMx3GbjZq-5" value="" style="endArrow=blockThin;endFill=1;fontSize=11;edgeStyle=elbowEdgeStyle;elbow=vertical;rounded=0;labelBackgroundColor=none;fontColor=default;exitX=0.536;exitY=0.982;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-11" source="T0OU9hSGY2hTBpNF0slO-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1257" y="275" as="sourcePoint" />
+            <mxPoint x="1257" y="305" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Asesoras financieras&lt;br&gt;&lt;font color=&quot;#808080&quot;&gt;&lt;i&gt;Finanzas&lt;/i&gt;&lt;/font&gt;" name="Tessa Miller" position="CFO" location="Office 1" email="me@example.com" placeholders="1" link="https://www.draw.io" id="OrQCqj91jotXMx3GbjZq-6">
+          <mxCell style="label;image=https://cdn3.iconfinder.com/data/icons/user-avatars-1/512/users-3-128.png;whiteSpace=wrap;html=1;rounded=0;glass=0;treeMoving=1;treeFolding=1;labelBackgroundColor=none;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
+            <mxGeometry x="1167" y="305" width="186" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="OrQCqj91jotXMx3GbjZq-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-11" source="T0OU9hSGY2hTBpNF0slO-28" target="T0OU9hSGY2hTBpNF0slO-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="349" y="355" as="sourcePoint" />
+            <mxPoint x="399" y="305" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="374" y="345" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Diseñadores&lt;div&gt;&lt;font color=&quot;#808080&quot;&gt;&lt;i&gt;Diseño&lt;/i&gt;&lt;/font&gt;&lt;/div&gt;" name="Edward Morrison" position="Brand Manager" location="Office 2" email="me@example.com" placeholders="1" link="https://www.draw.io" id="OrQCqj91jotXMx3GbjZq-8">
+          <mxCell style="label;image=https://cdn3.iconfinder.com/data/icons/user-avatars-1/512/users-1-128.png;whiteSpace=wrap;html=1;rounded=0;glass=0;treeFolding=1;treeMoving=1;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
+            <mxGeometry x="257" y="425" width="194" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="OrQCqj91jotXMx3GbjZq-9" value="" style="endArrow=blockThin;endFill=1;fontSize=11;edgeStyle=elbowEdgeStyle;elbow=vertical;rounded=0;labelBackgroundColor=none;fontColor=default;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-11" source="T0OU9hSGY2hTBpNF0slO-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="354" y="385" as="sourcePoint" />
+            <mxPoint x="353.76" y="425" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OrQCqj91jotXMx3GbjZq-10" value="" style="endArrow=blockThin;endFill=1;fontSize=11;edgeStyle=elbowEdgeStyle;elbow=vertical;rounded=0;labelBackgroundColor=none;fontColor=default;exitX=0.467;exitY=1.009;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-11" source="T0OU9hSGY2hTBpNF0slO-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="588" y="275" as="sourcePoint" />
+            <mxPoint x="588" y="305" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Comerciales&lt;br&gt;&lt;font color=&quot;#808080&quot;&gt;&lt;i&gt;Marketing&lt;/i&gt;&lt;/font&gt;" name="Tessa Miller" position="CFO" location="Office 1" email="me@example.com" placeholders="1" link="https://www.draw.io" id="OrQCqj91jotXMx3GbjZq-11">
+          <mxCell style="label;image=https://cdn3.iconfinder.com/data/icons/user-avatars-1/512/users-3-128.png;whiteSpace=wrap;html=1;rounded=0;glass=0;treeMoving=1;treeFolding=1;labelBackgroundColor=none;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
+            <mxGeometry x="498" y="305" width="186" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="OrQCqj91jotXMx3GbjZq-12" value="" style="endArrow=blockThin;endFill=1;fontSize=11;edgeStyle=elbowEdgeStyle;elbow=vertical;rounded=0;labelBackgroundColor=none;fontColor=default;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-11" target="OrQCqj91jotXMx3GbjZq-13" source="T0OU9hSGY2hTBpNF0slO-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1677" y="345" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Empleado&lt;div&gt;&lt;font color=&quot;#808080&quot;&gt;&lt;i&gt;Otros&lt;/i&gt;&lt;/font&gt;&lt;/div&gt;" name="Evan Valet" position="HR Director" location="Office 4" email="me@example.com" placeholders="1" link="https://www.draw.io" id="OrQCqj91jotXMx3GbjZq-13">
+          <mxCell style="label;image=https://cdn3.iconfinder.com/data/icons/user-avatars-1/512/users-9-2-128.png;whiteSpace=wrap;html=1;rounded=0;glass=0;treeFolding=1;treeMoving=1;labelBackgroundColor=none;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
+            <mxGeometry x="1601" y="425" width="180" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="OrQCqj91jotXMx3GbjZq-15" value="" style="endArrow=blockThin;endFill=1;fontSize=11;edgeStyle=elbowEdgeStyle;elbow=vertical;rounded=0;labelBackgroundColor=none;fontColor=default;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-11" target="OrQCqj91jotXMx3GbjZq-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1470.6599999999999" y="265" as="sourcePoint" />
+            <mxPoint x="1470.6599999999999" y="375" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OrQCqj91jotXMx3GbjZq-16" value="" style="endArrow=blockThin;endFill=1;fontSize=11;edgeStyle=elbowEdgeStyle;elbow=vertical;rounded=0;labelBackgroundColor=none;fontColor=default;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-11" source="T0OU9hSGY2hTBpNF0slO-31" target="OrQCqj91jotXMx3GbjZq-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1736.9999999999998" y="285" as="sourcePoint" />
+            <mxPoint x="1912.3400000000001" y="395" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -104,7 +104,7 @@ if __name__ == "__main__":
         else:
             cliente = Devolucion(lock)
         # Finalmente creamos el hilo que será Prestamo o Devolucion y pasaremos el lock que será "self.lock"
-        nuevo_hilo = threading.Thread(target=cliente.run())
+        nuevo_hilo = threading.Thread(target=cliente.run)
         lista_hilos.append(nuevo_hilo)
         nuevo_hilo.start()
     

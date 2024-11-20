@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebBrowser")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e86642100425cd827ef88629bc45d5bcbd69fe50")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+50726af0e521c08e0af719f2ac5e7340dcae1461")]
 [assembly: System.Reflection.AssemblyProductAttribute("WebBrowser")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WebBrowser")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

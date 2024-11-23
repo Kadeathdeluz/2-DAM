@@ -4,15 +4,15 @@ import time
 
 # Clases y métodos: algunos ejemplos
 class ThreadClassName(threading.Thread):
-    pass
-
-class ClassName:
     def __init__(self, attribute):
         super().__init__()
         self.attribute = attribute
     
     def run(self):
         print("Texto")
+
+class ClassName:
+    pass
 
 class SubClassName(ClassName):
     pass

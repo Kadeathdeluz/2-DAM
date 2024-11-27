@@ -1,0 +1,45 @@
+C:\Users\Usuario\source\repos\BuscaminasWPF\BuscaminasWPF\obj\Debug\BuscaminasWPF.csproj.AssemblyReference.cache
+C:\Users\Usuario\source\repos\BuscaminasWPF\BuscaminasWPF\obj\Debug\MainWindow.g.cs
+C:\Users\Usuario\source\repos\BuscaminasWPF\BuscaminasWPF\obj\Debug\App.g.cs
+C:\Users\Usuario\source\repos\BuscaminasWPF\BuscaminasWPF\obj\Debug\BuscaminasWPF_MarkupCompile.cache
+C:\Users\Usuario\source\repos\BuscaminasWPF\BuscaminasWPF\obj\Debug\BuscaminasWPF_MarkupCompile.lref
+C:\Users\Usuario\source\repos\BuscaminasWPF\BuscaminasWPF\bin\Debug\BuscaminasWPF.exe.config
+C:\Users\Usuario\source\repos\BuscaminasWPF\BuscaminasWPF\bin\Debug\BuscaminasWPF.exe
+C:\Users\Usuario\source\repos\BuscaminasWPF\BuscaminasWPF\bin\Debug\BuscaminasWPF.pdb
+C:\Users\Usuario\source\repos\BuscaminasWPF\BuscaminasWPF\obj\Debug\MainWindow.baml
+C:\Users\Usuario\source\repos\BuscaminasWPF\BuscaminasWPF\obj\Debug\BuscaminasWPF.g.resources
+C:\Users\Usuario\source\repos\BuscaminasWPF\BuscaminasWPF\obj\Debug\BuscaminasWPF.Properties.Resources.resources
+C:\Users\Usuario\source\repos\BuscaminasWPF\BuscaminasWPF\obj\Debug\BuscaminasWPF.csproj.GenerateResource.cache
+C:\Users\Usuario\source\repos\BuscaminasWPF\BuscaminasWPF\obj\Debug\BuscaminasWPF.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\BuscaminasWPF\BuscaminasWPF\obj\Debug\BuscaminasWPF.exe
+C:\Users\Usuario\source\repos\BuscaminasWPF\BuscaminasWPF\obj\Debug\BuscaminasWPF.pdb
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\VS Workspace\BuscaminasWPF\BuscaminasWPF\bin\Debug\BuscaminasWPF.exe.config
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\VS Workspace\BuscaminasWPF\BuscaminasWPF\bin\Debug\BuscaminasWPF.exe
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\VS Workspace\BuscaminasWPF\BuscaminasWPF\bin\Debug\BuscaminasWPF.pdb
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\VS Workspace\BuscaminasWPF\BuscaminasWPF\obj\Debug\BuscaminasWPF.csproj.AssemblyReference.cache
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\VS Workspace\BuscaminasWPF\BuscaminasWPF\obj\Debug\MainWindow.g.cs
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\VS Workspace\BuscaminasWPF\BuscaminasWPF\obj\Debug\App.g.cs
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\VS Workspace\BuscaminasWPF\BuscaminasWPF\obj\Debug\BuscaminasWPF_MarkupCompile.cache
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\VS Workspace\BuscaminasWPF\BuscaminasWPF\obj\Debug\BuscaminasWPF_MarkupCompile.lref
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\VS Workspace\BuscaminasWPF\BuscaminasWPF\obj\Debug\MainWindow.baml
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\VS Workspace\BuscaminasWPF\BuscaminasWPF\obj\Debug\BuscaminasWPF.g.resources
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\VS Workspace\BuscaminasWPF\BuscaminasWPF\obj\Debug\BuscaminasWPF.Properties.Resources.resources
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\VS Workspace\BuscaminasWPF\BuscaminasWPF\obj\Debug\BuscaminasWPF.csproj.GenerateResource.cache
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\VS Workspace\BuscaminasWPF\BuscaminasWPF\obj\Debug\BuscaminasWPF.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\VS Workspace\BuscaminasWPF\BuscaminasWPF\obj\Debug\BuscaminasWPF.exe
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\VS Workspace\BuscaminasWPF\BuscaminasWPF\obj\Debug\BuscaminasWPF.pdb
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\Actividades evaluables\Actividad Evaluable 1\BuscaminasWPF\BuscaminasWPF\bin\Debug\BuscaminasWPF.exe.config
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\Actividades evaluables\Actividad Evaluable 1\BuscaminasWPF\BuscaminasWPF\bin\Debug\BuscaminasWPF.exe
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\Actividades evaluables\Actividad Evaluable 1\BuscaminasWPF\BuscaminasWPF\bin\Debug\BuscaminasWPF.pdb
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\Actividades evaluables\Actividad Evaluable 1\BuscaminasWPF\BuscaminasWPF\obj\Debug\BuscaminasWPF.csproj.AssemblyReference.cache
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\Actividades evaluables\Actividad Evaluable 1\BuscaminasWPF\BuscaminasWPF\obj\Debug\MainWindow.g.cs
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\Actividades evaluables\Actividad Evaluable 1\BuscaminasWPF\BuscaminasWPF\obj\Debug\App.g.cs
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\Actividades evaluables\Actividad Evaluable 1\BuscaminasWPF\BuscaminasWPF\obj\Debug\BuscaminasWPF_MarkupCompile.cache
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\Actividades evaluables\Actividad Evaluable 1\BuscaminasWPF\BuscaminasWPF\obj\Debug\BuscaminasWPF_MarkupCompile.lref
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\Actividades evaluables\Actividad Evaluable 1\BuscaminasWPF\BuscaminasWPF\obj\Debug\MainWindow.baml
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\Actividades evaluables\Actividad Evaluable 1\BuscaminasWPF\BuscaminasWPF\obj\Debug\BuscaminasWPF.g.resources
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\Actividades evaluables\Actividad Evaluable 1\BuscaminasWPF\BuscaminasWPF\obj\Debug\BuscaminasWPF.Properties.Resources.resources
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\Actividades evaluables\Actividad Evaluable 1\BuscaminasWPF\BuscaminasWPF\obj\Debug\BuscaminasWPF.csproj.GenerateResource.cache
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\Actividades evaluables\Actividad Evaluable 1\BuscaminasWPF\BuscaminasWPF\obj\Debug\BuscaminasWPF.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\Actividades evaluables\Actividad Evaluable 1\BuscaminasWPF\BuscaminasWPF\obj\Debug\BuscaminasWPF.exe
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\Actividades evaluables\Actividad Evaluable 1\BuscaminasWPF\BuscaminasWPF\obj\Debug\BuscaminasWPF.pdb

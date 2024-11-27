@@ -69,12 +69,6 @@ namespace EventosBoton
             
         }
 
-        private void MiBoton_Click(object sender, RoutedEventArgs e)
-        {
-            Button boton = (Button)sender; // Convierte el sender a tipo Button
-            string contenido = boton.Content.ToString(); // Accede al contenido del botón
-        }
-
         private void Casilla_Click(object sender, RoutedEventArgs e)
         {
             Button myButton = (Button)sender;

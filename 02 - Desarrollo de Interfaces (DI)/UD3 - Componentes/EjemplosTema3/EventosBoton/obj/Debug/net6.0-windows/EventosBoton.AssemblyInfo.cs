@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EventosBoton")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+50726af0e521c08e0af719f2ac5e7340dcae1461")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8233c96eca1ef0ff3442b172b274c801d38e766e")]
 [assembly: System.Reflection.AssemblyProductAttribute("EventosBoton")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EventosBoton")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

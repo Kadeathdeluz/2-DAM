@@ -13,7 +13,7 @@ namespace BuscaminasWPF
     /// </summary>
     public partial class MainWindow : Window
     {
-        /** ---------------------- COSTANTES ---------------------- */
+        /** ---------------------- CONSTANTES ---------------------- */
         // Atributos tablero
         private const int Filas = 9;
         private const int Columnas = 9;

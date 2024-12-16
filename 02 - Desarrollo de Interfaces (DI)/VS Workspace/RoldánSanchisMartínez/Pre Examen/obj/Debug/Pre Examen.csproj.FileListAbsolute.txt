@@ -1,0 +1,15 @@
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\VS Workspace\RoldánSanchisMartínez\Pre Examen\bin\Debug\Pre Examen.exe.config
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\VS Workspace\RoldánSanchisMartínez\Pre Examen\bin\Debug\Pre Examen.exe
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\VS Workspace\RoldánSanchisMartínez\Pre Examen\bin\Debug\Pre Examen.pdb
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\VS Workspace\RoldánSanchisMartínez\Pre Examen\obj\Debug\Pre Examen.csproj.AssemblyReference.cache
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\VS Workspace\RoldánSanchisMartínez\Pre Examen\obj\Debug\MainWindow.g.cs
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\VS Workspace\RoldánSanchisMartínez\Pre Examen\obj\Debug\App.g.cs
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\VS Workspace\RoldánSanchisMartínez\Pre Examen\obj\Debug\Pre Examen_MarkupCompile.cache
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\VS Workspace\RoldánSanchisMartínez\Pre Examen\obj\Debug\Pre Examen_MarkupCompile.lref
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\VS Workspace\RoldánSanchisMartínez\Pre Examen\obj\Debug\MainWindow.baml
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\VS Workspace\RoldánSanchisMartínez\Pre Examen\obj\Debug\Pre Examen.g.resources
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\VS Workspace\RoldánSanchisMartínez\Pre Examen\obj\Debug\Pre_Examen.Properties.Resources.resources
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\VS Workspace\RoldánSanchisMartínez\Pre Examen\obj\Debug\Pre Examen.csproj.GenerateResource.cache
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\VS Workspace\RoldánSanchisMartínez\Pre Examen\obj\Debug\Pre Examen.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\VS Workspace\RoldánSanchisMartínez\Pre Examen\obj\Debug\Pre Examen.exe
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\VS Workspace\RoldánSanchisMartínez\Pre Examen\obj\Debug\Pre Examen.pdb

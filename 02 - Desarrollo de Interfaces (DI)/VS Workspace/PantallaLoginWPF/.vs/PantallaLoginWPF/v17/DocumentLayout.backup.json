@@ -1,0 +1,103 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\source\\repos\\PantallaLoginWPF\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7B865EA8-B270-435E-B30A-F511E0D11219}|PantallaLoginWPF\\PantallaLoginWPF.csproj|c:\\users\\usuario\\source\\repos\\pantallaloginwpf\\pantallaloginwpf\\register.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7B865EA8-B270-435E-B30A-F511E0D11219}|PantallaLoginWPF\\PantallaLoginWPF.csproj|solutionrelative:pantallaloginwpf\\register.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B865EA8-B270-435E-B30A-F511E0D11219}|PantallaLoginWPF\\PantallaLoginWPF.csproj|c:\\users\\usuario\\source\\repos\\pantallaloginwpf\\pantallaloginwpf\\register.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B865EA8-B270-435E-B30A-F511E0D11219}|PantallaLoginWPF\\PantallaLoginWPF.csproj|solutionrelative:pantallaloginwpf\\register.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B865EA8-B270-435E-B30A-F511E0D11219}|PantallaLoginWPF\\PantallaLoginWPF.csproj|c:\\users\\usuario\\source\\repos\\pantallaloginwpf\\pantallaloginwpf\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B865EA8-B270-435E-B30A-F511E0D11219}|PantallaLoginWPF\\PantallaLoginWPF.csproj|solutionrelative:pantallaloginwpf\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B865EA8-B270-435E-B30A-F511E0D11219}|PantallaLoginWPF\\PantallaLoginWPF.csproj|c:\\users\\usuario\\source\\repos\\pantallaloginwpf\\pantallaloginwpf\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7B865EA8-B270-435E-B30A-F511E0D11219}|PantallaLoginWPF\\PantallaLoginWPF.csproj|solutionrelative:pantallaloginwpf\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B865EA8-B270-435E-B30A-F511E0D11219}|PantallaLoginWPF\\PantallaLoginWPF.csproj|c:\\users\\usuario\\source\\repos\\pantallaloginwpf\\pantallaloginwpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B865EA8-B270-435E-B30A-F511E0D11219}|PantallaLoginWPF\\PantallaLoginWPF.csproj|solutionrelative:pantallaloginwpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Register.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\PantallaLoginWPF\\PantallaLoginWPF\\Register.xaml.cs",
+              "RelativeDocumentMoniker": "PantallaLoginWPF\\Register.xaml.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\PantallaLoginWPF\\PantallaLoginWPF\\Register.xaml.cs",
+              "RelativeToolTip": "PantallaLoginWPF\\Register.xaml.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAIAxwCsAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T18:14:58.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Register.xaml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\PantallaLoginWPF\\PantallaLoginWPF\\Register.xaml",
+              "RelativeDocumentMoniker": "PantallaLoginWPF\\Register.xaml",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\PantallaLoginWPF\\PantallaLoginWPF\\Register.xaml",
+              "RelativeToolTip": "PantallaLoginWPF\\Register.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-08T17:56:55.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\PantallaLoginWPF\\PantallaLoginWPF\\Login.xaml.cs",
+              "RelativeDocumentMoniker": "PantallaLoginWPF\\Login.xaml.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\PantallaLoginWPF\\PantallaLoginWPF\\Login.xaml.cs",
+              "RelativeToolTip": "PantallaLoginWPF\\Login.xaml.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAQwCcAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T18:11:59.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.xaml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\PantallaLoginWPF\\PantallaLoginWPF\\Login.xaml",
+              "RelativeDocumentMoniker": "PantallaLoginWPF\\Login.xaml",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\PantallaLoginWPF\\PantallaLoginWPF\\Login.xaml",
+              "RelativeToolTip": "PantallaLoginWPF\\Login.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-08T17:57:12.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\PantallaLoginWPF\\PantallaLoginWPF\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "PantallaLoginWPF\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\PantallaLoginWPF\\PantallaLoginWPF\\MainWindow.xaml.cs",
+              "RelativeToolTip": "PantallaLoginWPF\\MainWindow.xaml.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAhwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T18:03:13.836Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

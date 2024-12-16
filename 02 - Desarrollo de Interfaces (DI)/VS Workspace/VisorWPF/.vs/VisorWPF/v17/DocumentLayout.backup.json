@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Curso 2\\2-DAM\\02 - Desarrollo de Interfaces (DI)\\VS Workspace\\VisorWPF\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4FA77D29-94C5-4375-9432-551565CCBF24}|VisorWPF\\VisorWPF.csproj|c:\\users\\usuario\\onedrive\\escritorio\\curso 2\\2-dam\\02 - desarrollo de interfaces (di)\\vs workspace\\visorwpf\\visorwpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4FA77D29-94C5-4375-9432-551565CCBF24}|VisorWPF\\VisorWPF.csproj|solutionrelative:visorwpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FA77D29-94C5-4375-9432-551565CCBF24}|VisorWPF\\VisorWPF.csproj|c:\\users\\usuario\\onedrive\\escritorio\\curso 2\\2-dam\\02 - desarrollo de interfaces (di)\\vs workspace\\visorwpf\\visorwpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FA77D29-94C5-4375-9432-551565CCBF24}|VisorWPF\\VisorWPF.csproj|solutionrelative:visorwpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Curso 2\\2-DAM\\02 - Desarrollo de Interfaces (DI)\\VS Workspace\\VisorWPF\\VisorWPF\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "VisorWPF\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Curso 2\\2-DAM\\02 - Desarrollo de Interfaces (DI)\\VS Workspace\\VisorWPF\\VisorWPF\\MainWindow.xaml",
+              "RelativeToolTip": "VisorWPF\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-08T18:39:51.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Curso 2\\2-DAM\\02 - Desarrollo de Interfaces (DI)\\VS Workspace\\VisorWPF\\VisorWPF\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "VisorWPF\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Curso 2\\2-DAM\\02 - Desarrollo de Interfaces (DI)\\VS Workspace\\VisorWPF\\VisorWPF\\MainWindow.xaml.cs",
+              "RelativeToolTip": "VisorWPF\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T18:39:51.086Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

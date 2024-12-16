@@ -3,6 +3,10 @@ from threading import Barrier
 import random
 import time
 
+"""
+BARRERAS
+"""
+
 # Barrera para controlar que todos han terminado de hacer la pieza para comenzar a ensamblar (como la barrera está en el main, el hilo principal también espera)
 make_barrier = Barrier(4)
 # Barrera para controlar que todos han terminado de ensamblar para que el coche esté listo

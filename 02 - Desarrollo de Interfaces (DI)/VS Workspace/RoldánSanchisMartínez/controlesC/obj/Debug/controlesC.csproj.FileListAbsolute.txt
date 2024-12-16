@@ -1,0 +1,15 @@
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\VS Workspace\RoldánSanchisMartínez\controlesC\bin\Debug\controlesC.exe.config
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\VS Workspace\RoldánSanchisMartínez\controlesC\bin\Debug\controlesC.exe
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\VS Workspace\RoldánSanchisMartínez\controlesC\bin\Debug\controlesC.pdb
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\VS Workspace\RoldánSanchisMartínez\controlesC\obj\Debug\controlesC.csproj.AssemblyReference.cache
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\VS Workspace\RoldánSanchisMartínez\controlesC\obj\Debug\MainWindow.g.cs
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\VS Workspace\RoldánSanchisMartínez\controlesC\obj\Debug\App.g.cs
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\VS Workspace\RoldánSanchisMartínez\controlesC\obj\Debug\controlesC_MarkupCompile.cache
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\VS Workspace\RoldánSanchisMartínez\controlesC\obj\Debug\controlesC_MarkupCompile.lref
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\VS Workspace\RoldánSanchisMartínez\controlesC\obj\Debug\MainWindow.baml
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\VS Workspace\RoldánSanchisMartínez\controlesC\obj\Debug\controlesC.g.resources
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\VS Workspace\RoldánSanchisMartínez\controlesC\obj\Debug\controlesC.Properties.Resources.resources
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\VS Workspace\RoldánSanchisMartínez\controlesC\obj\Debug\controlesC.csproj.GenerateResource.cache
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\VS Workspace\RoldánSanchisMartínez\controlesC\obj\Debug\controlesC.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\VS Workspace\RoldánSanchisMartínez\controlesC\obj\Debug\controlesC.exe
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\VS Workspace\RoldánSanchisMartínez\controlesC\obj\Debug\controlesC.pdb

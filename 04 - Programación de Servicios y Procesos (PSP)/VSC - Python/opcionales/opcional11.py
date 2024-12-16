@@ -1,7 +1,9 @@
 import threading
 import time
 import random
-
+"""
+PRODUCTOR-CONSUMIDOR
+"""
 # Variables globales
 BUF_SIZE = 10
 buffer = [None]*BUF_SIZE

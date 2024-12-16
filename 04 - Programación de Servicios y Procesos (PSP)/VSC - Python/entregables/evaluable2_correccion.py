@@ -19,7 +19,7 @@ global_lock = threading.Lock()
 # Clase Cliente con un nombre
 class Cliente(threading.Thread):
     def __init__ (self, nombre, lock):
-        super().__init__()
+        super().__init__(name = nombre)
         self.nombre = nombre
         self.lock = lock
 
@@ -27,7 +27,9 @@ class Cliente(threading.Thread):
 class Prestamo(Cliente):
     def __init__(self, lock):
         global tomar_k
-        super().__init__(f"Hilo_tomar_{tomar_k}", lock)
+        nombre = f"Hilo_tomar_{tomar_k}"
+        super().__init__(nombre, lock)
+        self.nombre = nombre
         tomar_k += 1
 
     def run(self):
@@ -50,9 +52,9 @@ class Devolucion(Cliente):
         super().__init__(f"Hilo_devolver_{devolver_k}",lock)
         devolver_k += 1
     def run(self):
-        global libros_disponibles
         try:
             with self.lock:
+                global libros_disponibles
                 if(libros_disponibles < 10):
                     libros_disponibles += 1
                     print(f"El hilo {self.nombre} ha devuelto un libro.")

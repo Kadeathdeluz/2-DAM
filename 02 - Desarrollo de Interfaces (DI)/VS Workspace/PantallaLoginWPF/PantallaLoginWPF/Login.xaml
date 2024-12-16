@@ -1,0 +1,17 @@
+﻿<Window x:Class="PantallaLoginWPF.Login"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PantallaLoginWPF"
+        mc:Ignorable="d"
+        Title="Login" Height="450" Width="450">
+    <Grid>
+        <Label Content="Usuario" HorizontalAlignment="Left" Margin="107,86,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textboxUser" HorizontalAlignment="Left" Margin="220,90,0,0" TextWrapping="Wrap" Text="User" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Contraseña" HorizontalAlignment="Left" Margin="107,160,0,0" VerticalAlignment="Top"/>
+        <PasswordBox x:Name="textboxContrasenya" HorizontalAlignment="Left" Margin="220,164,0,0" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Conectarse" HorizontalAlignment="Left" Margin="211,274,0,0" VerticalAlignment="Top" Click="BotonLogin_Click"/>
+        <Button Content="Inicio" HorizontalAlignment="Left" Margin="35,28,0,0" VerticalAlignment="Top" Click="Abrir_Inicio"/>
+    </Grid>
+</Window>

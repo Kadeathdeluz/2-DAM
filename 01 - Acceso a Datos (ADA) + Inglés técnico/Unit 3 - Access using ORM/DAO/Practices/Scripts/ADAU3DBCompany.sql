@@ -1,9 +1,12 @@
-CREATE DATABASE ADAU3DBCompany CHARACTER SET utf8 COLLATE utf8_spanish_ci;
+-- Script to create DB and table ADAU3DBCompany and Employee
+-- Also to create the given user and gran privileges to him/her and to populate the table
+
+CREATE DATABASE IF NOT EXISTS ADAU3DBCompany CHARACTER SET utf8 COLLATE utf8_spanish_ci;
 CREATE USER 'mavenuser'@'localhost' IDENTIFIED BY 'ada0486'; --
 GRANT ALL PRIVILEGES ON ADAU3DBCompany.* TO 'mavenuser'@'localhost';
 USE ADAU3DBCompany;
 -- Create the employee's table
-CREATE TABLE Employee (
+CREATE TABLE IF NOT EXISTS Employee (
 taxID VARCHAR(9),
 firstname VARCHAR(100),
 lastname VARCHAR(100),

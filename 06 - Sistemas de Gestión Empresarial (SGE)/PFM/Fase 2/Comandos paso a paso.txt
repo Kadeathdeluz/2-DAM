@@ -1,0 +1,88 @@
+# NOTA: Ante cualquier problema de permisos usar sudo su y pa'lante
+
+# Instalar Docker Engine (from apt repo)
+
+# Add Docker's official GPG key:
+sudo apt-get update
+sudo apt-get install ca-certificates curl
+sudo install -m 0755 -d /etc/apt/keyrings
+sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
+sudo chmod a+r /etc/apt/keyrings/docker.asc
+
+# Add the repository to Apt sources:
+echo \
+  "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
+  $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | \
+  sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+sudo apt-get update
+
+# Paso final para instalación:
+sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+
+# Test hello-world para ver que funciona (opcional)
+sudo docker run hello-world
+
+# Instalar Firefox:
+sudo snap install Firefox
+
+# Pasos del PFM - Fase 2:
+
+mkdir odoo_dev
+cd odoo_dev
+git clone https://github.com/aoltra/odoodock.git
+
+cd odoodock
+cp .env-example .env
+cp .services-example .services
+
+# Permisos para los scripts
+chmod u+x ./up.sh
+chmod u+x ./create-module.sh
+
+# Para evitar problemas de permisos usar sudo o añadir el usuario al grupo Docker (se lo pasa por el forro igualmente)
+sudo groupadd docker
+sudo usermod -aG docker rolsanmar
+
+# Arrancar los servicios (importante usar sudo)
+sudo ./up.sh
+
+# Comprobar que los contenedores están arrancados:
+sudo docker compose ps -a
+
+# Ahora viene la parte en que no son sólo comandos
+
+# Abrir Firefox (con sudo para poder editar luego el logo de la empresa); 
+# nota: para hacer lo que sea sin cerrar Firefox necesitas otro terminal
+sudo Firefox
+
+# Instalar el módulo Facturación en Odoo (PDF tema 3)
+# A partir de aquí se puede acceder a las opciones generales desde ajustes y, por tanto a cambiar el nombre y el icono de la compañía
+
+# Para crear la copia de seguridad de la base de datos (paso 5: el último) hay que mirar el foro de SGE - PFM (general)
+# Y seguir los pasos que hay en los dos post:
+
+sudo apt install python3-venv
+
+# En caso de no tener python3 instalado, instalarlo con:
+
+sudo apt install python3
+
+# Ahora crear el entorno virtual venv
+# A mí con python tal cual me falla (es como está en el foro), pero con python3 no
+
+python3 -m venv venv
+
+# Para activar venv
+source venv/bin/activate
+
+# Para desactivarlo basta con:
+deactivate
+
+# Como puede que pip3 no esté instalado:
+sudo apt install python3-pip
+
+# Finalmente bastará con lanzar el script para crear la copia de seguridad (con venv activo y a poder ser sudo su):
+
+./database_backup.py 2425_SANCHIS_ROLDAN_10397148 -sr admin -ps admin
+
+# Tras funcionar, debería salir el siguiente texto al final: [INFO] Backup realizado: 2425_SANCHIS_ROLDAN_10397148_11-01-2025_20-21-39__by_odoodock.zip o algo similar. (NOTA ULTRAIMPORTANTE: hacerlo con sudo su TODO).

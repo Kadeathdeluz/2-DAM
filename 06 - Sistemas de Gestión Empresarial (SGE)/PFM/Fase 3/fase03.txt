@@ -1,0 +1,48 @@
+# Nota: La tabla se ve bien con el documento ocupando toda la pantalla.
+
+Módulos implantados:
+
+Nombre 			| Nombre téc. 		| Licencia		| Categoría	| Versión	| Funcionalidad									|
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+1- Facturación 		| account 		| LGPL versión 3	| Contabilidad	| 14.0.1.1	| Facturas y pagos								|
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+2- Empleados 		| hr	 		| LGPL versión 3	| Empleados	| 14.0.1.1	| Centralice la información de los empleados					|
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+3.1- Compra		| purchase	 	| LGPL versión 3	| Compra	| 14.0.1.2	| Órdenes de compra, licitaciones y acuerdos							|
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+3.2- Ventas		| sale_management 	| LGPL versión 3	| Ventas	| 14.0.1.0	| De presupuestos a facturas							|
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+4- Inventario 		| stock 		| LGPL versión 3	| Inventario	| 14.0.1.1	| Gestione sus actividades de stock y logística					|
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+5- Encuestas 		| survey 		| LGPL versión 3	| Encuestas	| 14.0.3.2	| Cree encuestas y analice las respuestas					|
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+6- Comercio electrónico | website_sale 		| LGPL versión 3	| Sitio web	| 14.0.1.0	| Venda sus productos online							|
+
+Porqué de cada módulo:
+
+1- Facturación: Es una funcionalidad indispensable en cualquier empresa para llevar el control de facturas y pagos.
+
+2- Empleados: Otra funcionalidad indispensable en cualquier empresa para gestionar el personal y los datos sobre el mismo.
+
+3- Compra/Ventas: Uno/s de los pilares de cualquier empresa, ya que nos permitirá/n gestionar desde facturas hasta presupuestos, así como órdenes de compra y acuerdos con proveedores.
+
+4- Inventario: Nos permitirá hacer un seguimiento del stock disponible y otras opciones logísticas.
+
+5- Encuestas: Especialmente interesante para el departamento de marketing para analizar la satisfacción de los clientes tras cada experiencia.
+
+6- Comercio electrónico: Puesto que el principal punto de venta es la web, es un "must" para la empresa.
+
+Explicación de la configuración de cada uno:
+
+1- Facturación: 
+
+2- Empleados: 
+
+3- Compra/Ventas: 
+
+4- Inventario: 
+
+5- Encuestas: 
+
+6- Comercio electrónico: 

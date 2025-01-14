@@ -32,17 +32,3 @@ Porqué de cada módulo:
 5- Encuestas: Especialmente interesante para el departamento de marketing para analizar la satisfacción de los clientes tras cada experiencia.
 
 6- Comercio electrónico: Puesto que el principal punto de venta es la web, es un "must" para la empresa.
-
-Explicación de la configuración de cada uno:
-
-1- Facturación: 
-
-2- Empleados: 
-
-3- Compra/Ventas: 
-
-4- Inventario: 
-
-5- Encuestas: 
-
-6- Comercio electrónico: 

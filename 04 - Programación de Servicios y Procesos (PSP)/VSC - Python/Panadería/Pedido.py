@@ -1,34 +1,16 @@
 # Clase Pedido
 class Pedido:
-    def __init__(self, id_pedido):
-        """
-        Inicializa un pedido con un ID único.
-        """
-        self.id_pedido = id_pedido
-        self.info_pedido = []  # Lista de productos en el pedido
-        self.tiempo_total = 0  # Tiempo total del pedido (calculado)
+    def __init__(self, id_pedido, productos):
+        self.id_pedido = id_pedido # ID único del pedido
+        self.productos = productos  # Lista de productos en el pedido
+        self.tiempo_total = self._calcular_tiempo_total() # Tiempo total del pedido (calculado)
 
-    def agregar_producto(self, tipo_producto, cantidad, tiempo_por_unidad):
-        """
-        Agrega un producto al pedido.
-        :param tipo_producto: Tipo de producto (ProductoEnum)
-        :param cantidad: Cantidad solicitada del producto
-        :param tiempo_por_unidad: Tiempo de horneado por unidad
-        """
-        producto = {
-            "tipo_producto": tipo_producto,
-            "cantidad": cantidad,
-            "tiempo": tiempo_por_unidad
-        }
-        self.info_pedido.append(producto)
-        self.recalcular_tiempo_total()
-
-    def recalcular_tiempo_total(self):
+    def _calcular_tiempo_total(self):
         """
         Recalcula el tiempo total del pedido sumando los tiempos de todos los productos.
         """
-        self.tiempo_total = sum(
-            item["cantidad"] * item["tiempo"] for item in self.info_pedido
+        return sum(
+            item["cantidad"] * item["tiempo"] for item in self.productos
         )
 
     def __str__(self):

@@ -6,6 +6,9 @@ from producto import Producto
 import time
 
 class ServidorPanaderia:
+    HOST = 'localhost'
+    PUERTO = 12345
+    
     def __init__(self, num_hornos, max_ciclos, host='localhost', puerto=12345):
         self.host = host
         self.puerto = puerto

@@ -9,8 +9,10 @@ class Pedido:
         Inicializa un pedido con un ID único y una lista de productos.
         :param productos: Lista de objetos Producto
         """
+        # Asigna un ID único al pedido y lo incrementa para el siguiente
         Pedido._id_counter += 1
         self.id_pedido = Pedido._id_counter
+
         self.productos = productos  # Lista de tuplas (Producto, cantidad)
         self.tiempo_total = self._calcular_tiempo_total(self.productos)  # Calcula el tiempo total al crear el pedido
 

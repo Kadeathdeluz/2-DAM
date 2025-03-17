@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "H:\\repos\\PersonalizacionControles\\MultiDataTrigger\\MultiDataTrigger.csproj": {}
+    "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Curso 2\\2-DAM\\02 - Desarrollo de Interfaces (DI)\\UD 5 - Creación de controles personalizados\\PersonalizacionControles\\MultiDataTrigger\\MultiDataTrigger.csproj": {}
   },
   "projects": {
-    "H:\\repos\\PersonalizacionControles\\MultiDataTrigger\\MultiDataTrigger.csproj": {
+    "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Curso 2\\2-DAM\\02 - Desarrollo de Interfaces (DI)\\UD 5 - Creación de controles personalizados\\PersonalizacionControles\\MultiDataTrigger\\MultiDataTrigger.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\repos\\PersonalizacionControles\\MultiDataTrigger\\MultiDataTrigger.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Curso 2\\2-DAM\\02 - Desarrollo de Interfaces (DI)\\UD 5 - Creación de controles personalizados\\PersonalizacionControles\\MultiDataTrigger\\MultiDataTrigger.csproj",
         "projectName": "MultiDataTrigger",
-        "projectPath": "H:\\repos\\PersonalizacionControles\\MultiDataTrigger\\MultiDataTrigger.csproj",
-        "packagesPath": "C:\\Users\\lifan\\.nuget\\packages\\",
-        "outputPath": "H:\\repos\\PersonalizacionControles\\MultiDataTrigger\\obj\\",
+        "projectPath": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Curso 2\\2-DAM\\02 - Desarrollo de Interfaces (DI)\\UD 5 - Creación de controles personalizados\\PersonalizacionControles\\MultiDataTrigger\\MultiDataTrigger.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Curso 2\\2-DAM\\02 - Desarrollo de Interfaces (DI)\\UD 5 - Creación de controles personalizados\\PersonalizacionControles\\MultiDataTrigger\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\lifan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -38,7 +39,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net6.0-windows7.0": {
@@ -62,7 +69,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }

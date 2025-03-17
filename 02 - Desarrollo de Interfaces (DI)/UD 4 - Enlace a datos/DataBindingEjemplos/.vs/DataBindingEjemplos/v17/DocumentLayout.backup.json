@@ -1,0 +1,100 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Curso 2\\2-DAM\\02 - Desarrollo de Interfaces (DI)\\UD 4 - Enlace a datos\\DataBindingEjemplos\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B761A7B9-425D-4B48-AA92-E3A15A711834}|EjemploObservableCollection\\EjemploObservableCollection.csproj|c:\\users\\usuario\\onedrive\\escritorio\\curso 2\\2-dam\\02 - desarrollo de interfaces (di)\\ud 4 - enlace a datos\\databindingejemplos\\ejemploobservablecollection\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B761A7B9-425D-4B48-AA92-E3A15A711834}|EjemploObservableCollection\\EjemploObservableCollection.csproj|solutionrelative:ejemploobservablecollection\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B761A7B9-425D-4B48-AA92-E3A15A711834}|EjemploObservableCollection\\EjemploObservableCollection.csproj|c:\\users\\usuario\\onedrive\\escritorio\\curso 2\\2-dam\\02 - desarrollo de interfaces (di)\\ud 4 - enlace a datos\\databindingejemplos\\ejemploobservablecollection\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B761A7B9-425D-4B48-AA92-E3A15A711834}|EjemploObservableCollection\\EjemploObservableCollection.csproj|solutionrelative:ejemploobservablecollection\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8C68B68-CCCC-4729-B4C8-689954591476}|Ejemplo.iNofifyChanged\\Ejemplo.iNotifyChanged.csproj|c:\\users\\usuario\\onedrive\\escritorio\\curso 2\\2-dam\\02 - desarrollo de interfaces (di)\\ud 4 - enlace a datos\\databindingejemplos\\ejemplo.inofifychanged\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8C68B68-CCCC-4729-B4C8-689954591476}|Ejemplo.iNofifyChanged\\Ejemplo.iNotifyChanged.csproj|solutionrelative:ejemplo.inofifychanged\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8C68B68-CCCC-4729-B4C8-689954591476}|Ejemplo.iNofifyChanged\\Ejemplo.iNotifyChanged.csproj|c:\\users\\usuario\\onedrive\\escritorio\\curso 2\\2-dam\\02 - desarrollo de interfaces (di)\\ud 4 - enlace a datos\\databindingejemplos\\ejemplo.inofifychanged\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D8C68B68-CCCC-4729-B4C8-689954591476}|Ejemplo.iNofifyChanged\\Ejemplo.iNotifyChanged.csproj|solutionrelative:ejemplo.inofifychanged\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E87CE092-9932-40C9-BB6D-95A97D2ABB31}|DataBindingEjemplos\\DataBindingEjemplos.csproj|c:\\users\\usuario\\onedrive\\escritorio\\curso 2\\2-dam\\02 - desarrollo de interfaces (di)\\ud 4 - enlace a datos\\databindingejemplos\\databindingejemplos\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E87CE092-9932-40C9-BB6D-95A97D2ABB31}|DataBindingEjemplos\\DataBindingEjemplos.csproj|solutionrelative:databindingejemplos\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Curso 2\\2-DAM\\02 - Desarrollo de Interfaces (DI)\\UD 4 - Enlace a datos\\DataBindingEjemplos\\EjemploObservableCollection\\Employee.cs",
+              "RelativeDocumentMoniker": "EjemploObservableCollection\\Employee.cs",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Curso 2\\2-DAM\\02 - Desarrollo de Interfaces (DI)\\UD 4 - Enlace a datos\\DataBindingEjemplos\\EjemploObservableCollection\\Employee.cs",
+              "RelativeToolTip": "EjemploObservableCollection\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T12:36:36.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Curso 2\\2-DAM\\02 - Desarrollo de Interfaces (DI)\\UD 4 - Enlace a datos\\DataBindingEjemplos\\Ejemplo.iNofifyChanged\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Ejemplo.iNofifyChanged\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Curso 2\\2-DAM\\02 - Desarrollo de Interfaces (DI)\\UD 4 - Enlace a datos\\DataBindingEjemplos\\Ejemplo.iNofifyChanged\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Ejemplo.iNofifyChanged\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T12:10:34.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Curso 2\\2-DAM\\02 - Desarrollo de Interfaces (DI)\\UD 4 - Enlace a datos\\DataBindingEjemplos\\Ejemplo.iNofifyChanged\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Ejemplo.iNofifyChanged\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Curso 2\\2-DAM\\02 - Desarrollo de Interfaces (DI)\\UD 4 - Enlace a datos\\DataBindingEjemplos\\Ejemplo.iNofifyChanged\\MainWindow.xaml",
+              "RelativeToolTip": "Ejemplo.iNofifyChanged\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-11T19:38:22.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Curso 2\\2-DAM\\02 - Desarrollo de Interfaces (DI)\\UD 4 - Enlace a datos\\DataBindingEjemplos\\EjemploObservableCollection\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "EjemploObservableCollection\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Curso 2\\2-DAM\\02 - Desarrollo de Interfaces (DI)\\UD 4 - Enlace a datos\\DataBindingEjemplos\\EjemploObservableCollection\\MainWindow.xaml",
+              "RelativeToolTip": "EjemploObservableCollection\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-12T12:07:21.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Curso 2\\2-DAM\\02 - Desarrollo de Interfaces (DI)\\UD 4 - Enlace a datos\\DataBindingEjemplos\\DataBindingEjemplos\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "DataBindingEjemplos\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Curso 2\\2-DAM\\02 - Desarrollo de Interfaces (DI)\\UD 4 - Enlace a datos\\DataBindingEjemplos\\DataBindingEjemplos\\MainWindow.xaml",
+              "RelativeToolTip": "DataBindingEjemplos\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-11T19:43:56.365Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

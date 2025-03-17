@@ -40,3 +40,26 @@ C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\D
 C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos\DataBindingEjemplos\obj\Debug\net6.0-windows\DataBindingEjemplos.pdb
 C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos\DataBindingEjemplos\obj\Debug\net6.0-windows\DataBindingEjemplos.genruntimeconfig.cache
 C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos\DataBindingEjemplos\obj\Debug\net6.0-windows\ref\DataBindingEjemplos.dll
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\UD 4 - Enlace a datos\DataBindingEjemplos\DataBindingEjemplos\bin\Debug\net6.0-windows\DataBindingEjemplos.exe
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\UD 4 - Enlace a datos\DataBindingEjemplos\DataBindingEjemplos\bin\Debug\net6.0-windows\DataBindingEjemplos.deps.json
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\UD 4 - Enlace a datos\DataBindingEjemplos\DataBindingEjemplos\bin\Debug\net6.0-windows\DataBindingEjemplos.runtimeconfig.json
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\UD 4 - Enlace a datos\DataBindingEjemplos\DataBindingEjemplos\bin\Debug\net6.0-windows\DataBindingEjemplos.dll
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\UD 4 - Enlace a datos\DataBindingEjemplos\DataBindingEjemplos\bin\Debug\net6.0-windows\DataBindingEjemplos.pdb
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\UD 4 - Enlace a datos\DataBindingEjemplos\DataBindingEjemplos\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\UD 4 - Enlace a datos\DataBindingEjemplos\DataBindingEjemplos\obj\Debug\net6.0-windows\NuevaTareaForm.g.cs
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\UD 4 - Enlace a datos\DataBindingEjemplos\DataBindingEjemplos\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\UD 4 - Enlace a datos\DataBindingEjemplos\DataBindingEjemplos\obj\Debug\net6.0-windows\DataBindingEjemplos_MarkupCompile.cache
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\UD 4 - Enlace a datos\DataBindingEjemplos\DataBindingEjemplos\obj\Debug\net6.0-windows\DataBindingEjemplos_MarkupCompile.lref
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\UD 4 - Enlace a datos\DataBindingEjemplos\DataBindingEjemplos\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\UD 4 - Enlace a datos\DataBindingEjemplos\DataBindingEjemplos\obj\Debug\net6.0-windows\NuevaTareaForm.baml
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\UD 4 - Enlace a datos\DataBindingEjemplos\DataBindingEjemplos\obj\Debug\net6.0-windows\DataBindingEjemplos.g.resources
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\UD 4 - Enlace a datos\DataBindingEjemplos\DataBindingEjemplos\obj\Debug\net6.0-windows\DataBindingEjemplos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\UD 4 - Enlace a datos\DataBindingEjemplos\DataBindingEjemplos\obj\Debug\net6.0-windows\DataBindingEjemplos.AssemblyInfoInputs.cache
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\UD 4 - Enlace a datos\DataBindingEjemplos\DataBindingEjemplos\obj\Debug\net6.0-windows\DataBindingEjemplos.AssemblyInfo.cs
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\UD 4 - Enlace a datos\DataBindingEjemplos\DataBindingEjemplos\obj\Debug\net6.0-windows\DataBindingEjemplos.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\UD 4 - Enlace a datos\DataBindingEjemplos\DataBindingEjemplos\obj\Debug\net6.0-windows\DataBindingEjemplos.sourcelink.json
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\UD 4 - Enlace a datos\DataBindingEjemplos\DataBindingEjemplos\obj\Debug\net6.0-windows\DataBindingEjemplos.dll
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\UD 4 - Enlace a datos\DataBindingEjemplos\DataBindingEjemplos\obj\Debug\net6.0-windows\refint\DataBindingEjemplos.dll
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\UD 4 - Enlace a datos\DataBindingEjemplos\DataBindingEjemplos\obj\Debug\net6.0-windows\DataBindingEjemplos.pdb
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\UD 4 - Enlace a datos\DataBindingEjemplos\DataBindingEjemplos\obj\Debug\net6.0-windows\DataBindingEjemplos.genruntimeconfig.cache
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\UD 4 - Enlace a datos\DataBindingEjemplos\DataBindingEjemplos\obj\Debug\net6.0-windows\ref\DataBindingEjemplos.dll

@@ -1,0 +1,68 @@
+﻿<Page x:Class="Academia.Home"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Academia"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Home">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock x:Name="welcomeTB"
+                   Grid.Column="0" Grid.Row="0" 
+                   Text="Bienvenido a La Academia" 
+                   HorizontalAlignment="Center" 
+                   VerticalAlignment="Top"
+                   Margin=" 10 10 10 10"
+                   FontSize="40" FontWeight="Bold"/>
+
+        <TextBlock x:Name="descriptionTB"
+                   Grid.Column="0" Grid.Row="1" 
+                   Text="Su gestor docente de confianza.
+                   &#10;Las opciones disponibles son:
+                   &#10; - Crear y mostrar estudiantes.
+                   &#10; - Crear y mostrar cursos.
+                   &#10;Puede elegir la opción seleccionando una pestaña."
+                   TextAlignment="Justify"
+                   HorizontalAlignment="Left" 
+                   VerticalAlignment="Top"
+                   Margin=" 10 10 10 10"
+                   FontSize="20"/>
+        <Button x:Name="loginTB"
+                   Grid.Column="0" Grid.Row="2" 
+                   Content="Iniciar sesión"
+                   BorderThickness="0"
+                   HorizontalAlignment="Center" 
+                   VerticalAlignment="Center"
+                   FontSize="20"
+                   Background="Transparent"
+                   MouseEnter="loginTB_MouseEnter"
+                   MouseLeave="loginTB_MouseLeave"
+                   Click="loginTB_Click"
+                   />
+        <Button x:Name="createAccountTB"
+                   Grid.Column="0" Grid.Row="3" 
+                   Content="Crear cuenta"
+                   BorderThickness="0"
+                   HorizontalAlignment="Center" 
+                   VerticalAlignment="Center"
+                   FontSize="20"
+                   Background="Transparent"
+                   MouseEnter="createAccountTB_MouseEnter"
+                   MouseLeave="createAccountTB_MouseLeave"
+                   Click="createAccountTB_Click"
+                   />
+
+    </Grid>
+</Page>

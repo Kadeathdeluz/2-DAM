@@ -18,3 +18,24 @@ H:\repos\PersonalizacionControles\DataTrigger\obj\Debug\net6.0-windows\refint\Da
 H:\repos\PersonalizacionControles\DataTrigger\obj\Debug\net6.0-windows\DataTrigger.pdb
 H:\repos\PersonalizacionControles\DataTrigger\obj\Debug\net6.0-windows\DataTrigger.genruntimeconfig.cache
 H:\repos\PersonalizacionControles\DataTrigger\obj\Debug\net6.0-windows\ref\DataTrigger.dll
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\UD 5 - Creación de controles personalizados\PersonalizacionControles\DataTrigger\bin\Debug\net6.0-windows\DataTrigger.exe
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\UD 5 - Creación de controles personalizados\PersonalizacionControles\DataTrigger\bin\Debug\net6.0-windows\DataTrigger.deps.json
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\UD 5 - Creación de controles personalizados\PersonalizacionControles\DataTrigger\bin\Debug\net6.0-windows\DataTrigger.runtimeconfig.json
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\UD 5 - Creación de controles personalizados\PersonalizacionControles\DataTrigger\bin\Debug\net6.0-windows\DataTrigger.dll
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\UD 5 - Creación de controles personalizados\PersonalizacionControles\DataTrigger\bin\Debug\net6.0-windows\DataTrigger.pdb
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\UD 5 - Creación de controles personalizados\PersonalizacionControles\DataTrigger\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\UD 5 - Creación de controles personalizados\PersonalizacionControles\DataTrigger\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\UD 5 - Creación de controles personalizados\PersonalizacionControles\DataTrigger\obj\Debug\net6.0-windows\DataTrigger_MarkupCompile.cache
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\UD 5 - Creación de controles personalizados\PersonalizacionControles\DataTrigger\obj\Debug\net6.0-windows\DataTrigger_MarkupCompile.lref
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\UD 5 - Creación de controles personalizados\PersonalizacionControles\DataTrigger\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\UD 5 - Creación de controles personalizados\PersonalizacionControles\DataTrigger\obj\Debug\net6.0-windows\DataTrigger.g.resources
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\UD 5 - Creación de controles personalizados\PersonalizacionControles\DataTrigger\obj\Debug\net6.0-windows\DataTrigger.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\UD 5 - Creación de controles personalizados\PersonalizacionControles\DataTrigger\obj\Debug\net6.0-windows\DataTrigger.AssemblyInfoInputs.cache
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\UD 5 - Creación de controles personalizados\PersonalizacionControles\DataTrigger\obj\Debug\net6.0-windows\DataTrigger.AssemblyInfo.cs
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\UD 5 - Creación de controles personalizados\PersonalizacionControles\DataTrigger\obj\Debug\net6.0-windows\DataTrigger.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\UD 5 - Creación de controles personalizados\PersonalizacionControles\DataTrigger\obj\Debug\net6.0-windows\DataTrigger.sourcelink.json
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\UD 5 - Creación de controles personalizados\PersonalizacionControles\DataTrigger\obj\Debug\net6.0-windows\DataTrigger.dll
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\UD 5 - Creación de controles personalizados\PersonalizacionControles\DataTrigger\obj\Debug\net6.0-windows\refint\DataTrigger.dll
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\UD 5 - Creación de controles personalizados\PersonalizacionControles\DataTrigger\obj\Debug\net6.0-windows\DataTrigger.pdb
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\UD 5 - Creación de controles personalizados\PersonalizacionControles\DataTrigger\obj\Debug\net6.0-windows\DataTrigger.genruntimeconfig.cache
+C:\Users\Usuario\OneDrive\Escritorio\Curso 2\2-DAM\02 - Desarrollo de Interfaces (DI)\UD 5 - Creación de controles personalizados\PersonalizacionControles\DataTrigger\obj\Debug\net6.0-windows\ref\DataTrigger.dll

@@ -1,0 +1,35 @@
+﻿<Page x:Class="Academia.CreateCourse"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Academia"
+      mc:Ignorable="d"
+      Title="Crear Curso">
+
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Text="Nombre del Curso:" FontSize="14" Grid.Row="0" />
+        <TextBox x:Name="courseNameTextBox" Grid.Row="1" Width="250" Margin="0,5"/>
+
+        <TextBlock Text="Duración:" FontSize="14" Grid.Row="2" InputScope="Number"/>
+        <TextBox x:Name="durationTextBox" Grid.Row="3" Width="250" Margin="0,5"/>
+
+        <TextBlock Text="Profesor:" FontSize="14" Grid.Row="4"/>
+        <TextBox x:Name="professorNameTextBox" Grid.Row="5" Width="250" Margin="0,5"/>
+
+        <StackPanel Orientation="Horizontal" Grid.Row="6" Margin="0,10" HorizontalAlignment="Center">
+            <Button Content="Aceptar" Width="100" Margin="5" Click="AcceptButton_Click"/>
+            <Button Content="Cancelar" Width="100" Margin="5" Click="CancelButton_Click"/>
+        </StackPanel>
+    </Grid>
+</Page>

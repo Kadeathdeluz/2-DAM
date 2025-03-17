@@ -3,10 +3,6 @@ import threading
 import socket
 import random
 
-# Imports locales
-from producto import Producto
-from pedido import Pedido
-
 # Imports de módulos de encriptación
 import base64
 import uuid
@@ -14,23 +10,27 @@ from Crypto.PublicKey import RSA
 from Crypto.Cipher import PKCS1_OAEP, AES
 from Crypto.Random import get_random_bytes
 
+from producto import Producto
+from pedido import Pedido
 
 class ClientePanaderia(threading.Thread):
     HOST = "127.0.0.1"
     PORT = 5000
+    _id_counter = 0  # Contador para asignar un ID único a cada cliente
 
     def __init__(self):
         super().__init__()
+        ClientePanaderia._id_counter += 1
         self.id_cliente = uuid.uuid4().int  # ID único para el client
         self.name = f"Cliente {self.id_cliente}"
         self.socket_cliente = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         self.pedidos_realizados = []  # Lista para almacenar los pedidos enviados
 
+        self.cliente_activo = True
+
     def run(self):
         try:
             self.socket_cliente.connect((self.HOST, self.PORT))
-            print(f"[Cliente {self.id_cliente}] Conectado al servidor")
-
             # Recibir clave pública del servidor
             self.recibir_clave_publica_servidor()
 
@@ -38,34 +38,38 @@ class ClientePanaderia(threading.Thread):
             self.generar_clave_aes()
             self.enviar_clave_aes()
             
-            # A partir de aquí la comunicación está encriptada
-            # Encriptamos el nombre y lo enviamos
             nombre_encriptado = self.aes_encrypt(self.name)
             self.socket_cliente.send(nombre_encriptado.encode()) # Lo primero que enviamos es el nombre del hilo Cliente
+            print(f"[Cliente {self.id_cliente}] Conectado al servidor")
             
-            # Recibir productos disponibles desde el servidor y descifrarlos
+            # Recibir productos disponibles desde el servidor
             productos_disponibles_cifrados = self.socket_cliente.recv(1024).decode()
             productos_disponibles = self.aes_decrypt(productos_disponibles_cifrados)
             productos_disponibles = eval(productos_disponibles)  # Convertir de cadena a conjunto
 
             # Simulación de realizar pedidos
             self.realizar_pedido(productos_disponibles)
+            # time.sleep(random.randint(1, 3))
+
+            print(f"[Cliente {self.id_cliente}] Esperando a que el servidor cierre la conexión...")
             
             # El cliente queda bloqueado hasta que su pedido termina
-            while True:
-                data = self.socket_cliente.recv(1024).decode()
-                print(f"[Cliente {self.id_cliente}] Mensaje recibido: {data} del servidor.")
+            while self.cliente_activo:
+                data_cifrada = self.socket_cliente.recv(1024).decode()
+                data = self.aes_decrypt(data_cifrada)
                 
-                if data == b'':
+                if data == (''):
+                    self.cliente_activo = False
                     print(f"Cliente inactivo.")
                     break
+                
+                print(f"[Cliente {self.id_cliente}] Mensaje recibido: {data} del servidor.")
                 
         except Exception as e:
             print(f"[Cliente {self.id_cliente}] Error: {e}")
         finally:
             print(f"[Cliente {self.id_cliente}] Conexión cerrada")
-            if self.socket_cliente:
-                self.socket_cliente.close()
+            self.socket_cliente.close()
     
     """
     ---------------------------------------------------------------
@@ -143,6 +147,7 @@ class ClientePanaderia(threading.Thread):
         # Seleccionar un producto aleatorio
         producto_disponible = random.choice(list(productos_disponibles))
         producto: Producto = Producto.from_csv(producto_disponible) # Producto seleccionado
+        # print(f"[Cliente {self.id_cliente}] PRODUCTO seleccionado: {producto}")
 
         id_pedido = 0 # ID 0 indica que el pedido se está creando
         cantidad = random.randint(1, 10) # Cantidad aleatoria (1-10)
@@ -150,28 +155,23 @@ class ClientePanaderia(threading.Thread):
 
         # Formato esperado por el servidor: "PEDIDO id_pedido,tipo_producto,tiempo_producto,peso_producto,cantidad"
         pedido_info = f"PEDIDO {pedido.id_pedido},{pedido.producto.to_csv()},{pedido.cantidad}"
-        
+        print(f"[Cliente {self.id_cliente}] Realizando pedido: {pedido_info}...")
         # Ciframos el pedido y lo enviamos
         pedido_info_cifrado = self.aes_encrypt(pedido_info)
         self.socket_cliente.send(pedido_info_cifrado.encode())
 
         print(f"[Cliente {self.id_cliente}] Pedido enviado, esperando respuesta del servidor...")
-        
         # Recibimos la respuesta cifrada y la desciframos
         respuesta_cifrada = self.socket_cliente.recv(1024).decode() # El cliente espera la respuesta del servidor
         respuesta = self.aes_decrypt(respuesta_cifrada)
-
         print(f"[Cliente {self.id_cliente}] RESPUESTA [{respuesta}] del servidor")
         self.pedidos_realizados.append(pedido.id_pedido)
 
     # Consulta el estado de un pedido al servidor
     def consultar_estado_pedido(self, id_pedido):
         consulta = f"CONSULTAR {id_pedido}"
-        consulta_cifrada = self.aes_encrypt(consulta)
-        self.socket_cliente.send(consulta_cifrada.encode())
-
-        respuesta_cifrada = self.socket_cliente.recv(1024).decode()
-        respuesta = self.aes_decrypt(respuesta_cifrada)
+        self.socket_cliente.send(consulta.encode())
+        respuesta = self.socket_cliente.recv(1024).decode()
         print(f"[Cliente {self.id_cliente}] Estado del pedido {id_pedido}: {respuesta}")
 
 # Función auxiliar para mostrar las opciones de los clientes (no se llama)

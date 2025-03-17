@@ -63,9 +63,7 @@ class Horno(threading.Thread):
         self.pedido_actual.estado = EstadoPedido.LISTO  # Marca el pedido como listo
         
         # Notificar al servidor cuando se completa un pedido
-        self.servidor_callback(self.id_horno, self.pedido_actual, self.tiempo_en_uso, self.productos_horneados, self.cliente)
-        
-        self.cliente = None
+        self.servidor_callback(self.id_horno, self.pedido_actual, self.tiempo_en_uso, self.productos_horneados)
         
         self.pedido_actual = None
 
@@ -76,7 +74,7 @@ class Horno(threading.Thread):
 
         self.evento_pedido.clear()  # Espera el siguiente pedido
 
-    def asignar_pedido(self, pedido: Pedido, socket_cliente):
+    def asignar_pedido(self, pedido: Pedido):
         """
         Asigna un pedido al horno si está disponible.
         :param pedido: Pedido a asignar.
@@ -85,7 +83,6 @@ class Horno(threading.Thread):
         with self.lock:
             if self.estado == EstadoHorno.DISPONIBLE:
                 self.pedido_actual = pedido
-                self.cliente = socket_cliente
                 self.evento_pedido.set()  # Notifica al hilo que hay un pedido
                 return True
             return False  # Horno ocupado o en mantenimiento

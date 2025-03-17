@@ -2,8 +2,6 @@
 import threading
 import socket
 import queue
-
-# Imports locales
 from estado_pedido import EstadoPedido
 from producto import Producto
 from horno import Horno
@@ -31,23 +29,18 @@ class Servidor:
         self.socket_servidor = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         self.socket_servidor.bind((self.HOST, self.PORT))
         self.socket_servidor.listen(20)
-        self.lock = threading.Lock()
         print(f"Servidor iniciado en {self.HOST}:{self.PORT}")
 
         self.productos_disponibles: list[Producto] = self.configurar_productos() # Lista de productos disponibles
         
-        self.clientes_por_pedido = {} # Guardamos la referencia de cada cliente en base a su pedido
+        self.clientes_por_pedido = {} # Diccionario para almacenar los clientes asociados a cada pedido
         
         self.servidor_activo = True
 
         # Inicia los hornos
         for horno in self.hornos:
             horno.start()
-        print(f"Hay {self.num_hornos} hornos disponibles con un máximo de {self.max_ciclos_horno} ciclos antes del mantenimiento y un algoritmo de planificación {self.algoritmo} seleccionado."
-            + f"\nLos productos disponibles son:")
-        for producto in self.productos_disponibles:
-            print(producto)
-        print("\n")
+        print(f"Hay {self.num_hornos} hornos disponibles con un máximo de {self.max_ciclos_horno} ciclos antes del mantenimiento y un algoritmo de planificación {self.algoritmo} seleccionado.")
     """
     Funciones de encriptación
     """
@@ -78,6 +71,8 @@ class Servidor:
         clave_aes_cifrada_b64 = cliente_socket.recv(2048)  # Aumentar el tamaño del buffer
         clave_aes_cifrada = base64.b64decode(clave_aes_cifrada_b64)
         self.aes_key = self.private_cipher.decrypt(clave_aes_cifrada)
+        self.aes_cipher = AES.new(self.aes_key, AES.MODE_EAX)
+        print(f"Recibida clave simétrica del cliente: {self.aes_key}")
 
     # Función para cifrar un mensaje con la clave simétrica AES
     def aes_encrypt(self, mensaje: str):
@@ -88,8 +83,7 @@ class Servidor:
         """
         cipher = AES.new(self.aes_key, AES.MODE_EAX)
         ciphertext, tag = cipher.encrypt_and_digest(mensaje.encode())
-        nonce = cipher.nonce
-        return base64.b64encode(nonce + tag + ciphertext).decode()
+        return base64.b64encode(cipher.nonce + tag + ciphertext).decode()
 
     # Función para desencriptar mensajes con la clave simétrica AES
     def aes_decrypt(self, mensaje_cifrado):
@@ -183,7 +177,6 @@ class Servidor:
         Maneja un cliente.
         :param cliente_socket: Socket del cliente
         """
-        self.cliente_socket = cliente_socket
         # En primer lugar, el servidor genera las claves RSA
         self.generar_claves_rsa()
         # Luego, envía la clave pública al cliente
@@ -191,72 +184,52 @@ class Servidor:
         # Por último, recibe la clave simétrica cifrada por la clave pública del servidor
         self.recibir_clave_simetrica(cliente_socket)
 
-        # A partir de aquí la comunicación se encripta con AES (simétrica)
         try:
-            # Recibimos el nombre cifrado y lo desciframos
-            nombre_cliente_codificado = cliente_socket.recv(1024).decode() # lo primero que recibimos es el nombre del cliente
-            self.nombre_cliente = self.aes_decrypt(nombre_cliente_codificado)
-
+            self.nombre_cliente = cliente_socket.recv(1024).decode() # lo primero que recibimos es el nombre del cliente
             # Enviar lista de productos disponibles al cliente (con el formato que éste entiende para poder crear objetos Producto)
             productos = {producto.to_csv() for producto in self.productos_disponibles}
-            productos_codificados = self.aes_encrypt(f"{productos}")
-            cliente_socket.send(f"{productos_codificados}".encode())
+            cliente_socket.send(f"{productos}".encode())
 
             # Recibe las peticiones del cliente
             while True:
-                # Recibimos datos del cliente codificados y los descodificamos
-                datos_codificados = cliente_socket.recv(1024).decode()
-                datos: str = self.aes_decrypt(datos_codificados)
-
+                # Recibimos datos del cliente
+                datos = cliente_socket.recv(1024).decode().strip()
                 print(f"Recibido: {datos} de {self.nombre_cliente} en {cliente_socket.getpeername()}")
                 
                 if datos.upper().startswith("CONSULTAR "):
                     # Consultar estado de los pedidos
                     pedido_id = datos[10:] # Elimina el comando "CONSULTAR " y obtiene el ID del pedido
-                    
-                    # Obtiene el estado del pedido y lo codifica
                     estado_pedido = self.obtener_estado_pedido(pedido_id)
-                    estado_pedido_codificado = self.aes_encrypt(estado_pedido)
-                    cliente_socket.send(estado_pedido_codificado.encode())
+                    cliente_socket.send(estado_pedido.encode())
                 
                 elif datos.upper().startswith("PEDIDO "):
                     pedido_info = datos[7:] # Elimina el comando "PEDIDO " y obtiene la información del pedido
                     # Procesa el pedido
+                    # print(f"Pedido recibido: {pedido_info} de {cliente_socket.getpeername()}")
                     pedido: Pedido = self.procesar_pedido(pedido_info)
+                    # print(f"Pedido procesado: {pedido}")
 
                     if pedido:
-                        with self.lock:
-                            self.clientes_por_pedido[pedido.id_pedido] = cliente_socket # Asocia el cliente al pedido
-                        
+                        self.clientes_por_pedido[pedido.id_pedido] = cliente_socket # Asocia el cliente al pedido
                         posicion = self.encolar_pedido(pedido) # Encola el pedido y obtiene la posición en la cola de espera
-                        
-                        mensaje = f"Pedido recibido y en cola en la posición {posicion}, duración esperada {pedido.tiempo_total} s"
-                        
-                        # Ciframos el mensaje y lo enviamos
-                        mensaje_cifrado = self.aes_encrypt(mensaje)
-                        cliente_socket.send(mensaje_cifrado.encode())
-
+                        cliente_socket.send(f"Pedido recibido y en cola en la posición {posicion}, duración esperada {pedido.tiempo_total} s".encode())
                     else:
-                        # Mensaje de error encriptado
-                        cliente_socket.send(self.aes_encrypt("Error en el pedido").encode())
+                        cliente_socket.send("Error en el pedido".encode())
                 
                 elif datos.upper() == "SALIR":
                     # Cerramos la conexión
-                    # Mensaje de cierre encriptado
-                    cliente_socket.send(self.aes_encrypt("Cerrando conexión...\n").encode())
+                    cliente_socket.send("Cerrando conexión...\n".encode())
                     break
                 
                 else:
-                    # Mensaje predefinido encriptado
-                    cliente_socket.send(self.aes_encrypt("Comando no reconocido. Use 'PEDIDO + Pedido()', 'CONSULTAR' o 'SALIR'.\n").encode())
+                    cliente_socket.send("Comando no reconocido. Use 'PEDIDO + Pedido()', 'CONSULTAR' o 'SALIR'.\n".encode())
                 # Finalmente asignamos los pedidos a los hornos disponibles
                 self.asignar_pedidos()
 
         except Exception as e:
-            print(f"Error al manejar el cliente {self.nombre_cliente}: {e}")
+            print(f"Error al manejar el cliente {self.nombre_cliente} en {cliente_socket.getpeername()}: {e}")
         finally:
-            if cliente_socket:
-                cliente_socket.close()
+            cliente_socket.close()
 
     # Obtiene el estado de los pedidos de la lista total de pedidos (que se mantiene actualizada para facilitar la consulta)
     def obtener_estado_pedido(self, id_pedido: str):
@@ -296,8 +269,10 @@ class Servidor:
         :return: Posición en la cola de espera
         """
         
+        # print(f"HILO SERVIDOR {threading.current_thread().name} entrando en sección crítica")
         # Una vez se encola el pedido, pasa a estar "PENDIENTE"
         pedido.estado = EstadoPedido.PENDIENTE
+        # print(f"HILO SERVIDOR {threading.current_thread().name} Pedido {pedido.id_pedido} en estado {pedido.estado.name}")
         self.pedidos_totales.append(pedido) # Además de agregarlo a la cola de espera, se agrega a la lista de pedidos totales
 
         # Algoritmo FIFO
@@ -323,8 +298,8 @@ class Servidor:
                     pedido.estado = EstadoPedido.EN_PROCESO
 
                     self.actualizar_pedido_total(pedido, pedido.estado) # Actualiza el estado del pedido en la lista de pedidos totales
-                    cliente = self.cliente_socket
-                    horno.asignar_pedido(pedido, cliente)
+
+                    horno.asignar_pedido(pedido)
                     break
     
     # Función auxiliar para actualizar el estado del pedido en la lista de pedidos totales
@@ -338,7 +313,7 @@ class Servidor:
                 break
 
     # Función de tipo callable que permite a los hornos avisar de que un pedido está listo para registrar sus estadísticas
-    def registrar_estadisticas(self, id_horno: int, pedido: Pedido, tiempo_en_uso: float, productos_horneados: int, socket_cliente):
+    def registrar_estadisticas(self, id_horno: int, pedido: Pedido, tiempo_en_uso: float, productos_horneados: int):
         """
         Registra las estadísticas de un horno.
         :param id_horno: ID del horno
@@ -351,31 +326,27 @@ class Servidor:
         self.actualizar_pedido_total(pedido, pedido.estado) # Actualiza el estado del pedido en la lista de pedidos totales
 
         # Notifica al cliente que su pedido está listo y termina
-        self.notificar_cliente(pedido, socket_cliente)
-        self.cerrar_servidor(socket_cliente)
+        self.notificar_cliente(pedido)
+        self.cerrar_servidor()
     
     # Función que notifica al cliente que su pedido está listo
-    def notificar_cliente(self, pedido: Pedido, socket_cliente):
+    def notificar_cliente(self, pedido: Pedido):
         """
         Notifica al cliente que su pedido está listo.
         """
         try:
-
-            # Ciframos el mensaje y lo enviamos
-            mensaje = f"Pedido {pedido.id_pedido} listo"
-            socket_cliente.send(mensaje.encode()) # Notifica al cliente que su pedido está listo
-            
+            cliente_socket = self.clientes_por_pedido[pedido.id_pedido] # Obtiene el socket del cliente asociado al pedido
+            cliente_socket.send(f"Pedido {pedido.id_pedido} listo".encode()) # Notifica al cliente que su pedido está listo
         except Exception as e:
             print(f"Error al notificar al cliente: {e}")
     
     # Función para cerrar el servidor
-    def cerrar_servidor(self, socket_cliente):
+    def cerrar_servidor(self):
         """
         Cierra el servidor.
         """
         self.servidor_activo = False
-        socket_cliente.close()
-        # self.socket_servidor.close()
+        self.socket_servidor.close()
         print(f"Servidor cerrado para el cliente {self.nombre_cliente}")
 
     # Función auxiliar para calcular la posición de un pedido en la cola de espera (SJF)

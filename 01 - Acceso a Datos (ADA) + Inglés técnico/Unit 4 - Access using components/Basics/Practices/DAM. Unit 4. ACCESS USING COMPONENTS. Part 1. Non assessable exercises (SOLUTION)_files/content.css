@@ -1,0 +1,1576 @@
+
+/* eXeLearning Style Designer Compatible Style */
+/* Colores del CEED
+  BAT rgba(58,174,108,1)
+  GES rgba(254,236,60,1)
+  LLE rgba(65,107,178,1)
+  FP rgba(237,110,81,1)
+  PAM rgba(127,135,147,1)
+  */
+
+@font-face {
+  font-family: 'Work Sans Light';
+  font-style: normal;
+  font-weight: 300;
+  src: url('WorkSans-Light.ttf') format('opentype');
+}
+@font-face {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('WorkSans-Regular.ttf') format('opentype');
+}
+@font-face {
+  font-family: 'Work Sans Medium';
+  font-style: normal;
+  font-weight: 500;
+  src: url('WorkSans-Medium.ttf') format('opentype');
+}
+@font-face {
+  font-family: 'Work Sans Medium Italic';
+  font-style: italic;
+  font-weight: 500;
+  src: url('WorkSans-MediumItalic.ttf') format('opentype');
+}
+@font-face {
+  font-family: 'Work Sans SemiBold';
+  src: url('WorkSans-SemiBold.ttf') format('opentype');
+  font-style: normal;
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'Work Sans Bold';
+  src: url('WorkSans-Bold.ttf') format('opentype');
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'Work Sans ExtraBold';
+  src: url('WorkSans-ExtraBold.ttf') format('opentype');
+  font-style: normal;
+  font-weight: 800;
+}
+@font-face {
+  font-family: 'Work Sans Black';
+  src: url('WorkSans-Black.ttf') format('opentype');
+  font-style: normal;
+  font-weight: 900;
+}
+html{font-size:105%}
+body{
+  font:100%/1.5 'Work Sans',Arial,Verdana,Helvetica,sans-serif;
+  padding:15px;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  text-align:left;
+}
+h1{
+  font-size:2.0rem;
+  line-height: 1.05;
+  font-family: 'Work Sans ExtraBold';
+  font-weight: 800;
+  margin: 0;
+  padding: 0.9rem 0 0.9rem 0;
+  color: rgba(237,110,81,1);
+}
+h2{
+  font-size:1.75rem !important;
+  line-height: 1.15 !important;
+  font-family:'Work Sans Bold' !important;
+  font-weight: 700 !important;
+  margin: 0 !important;
+  padding: 0.8rem 0 0.8rem 0 !important;
+  color: rgba(237,110,81,1) !important;
+}
+h3{
+  font-size:1.6rem;
+  line-height: 1.15;
+  font-family:'Work Sans SemiBold';
+  font-weight: 600;
+  margin: 0;
+  padding: 0.7rem 0 0.7rem 0;
+  color: rgba(237,110,81,1);
+}
+h4{
+  font-size:1.45rem;
+  line-height: 1.2;
+  font-family:'Work Sans Medium';
+  font-weight: 500;
+  margin: 0;
+  padding: 0.6rem 0 0.6rem 0;
+  color: rgba(237,110,81,1);
+}
+h5{
+  font-size:1.3rem;
+  line-height: 1.2;
+  font-family:'Work Sans Medium Italic';
+  font-weight: 500;
+  margin: 0;
+  padding: 0.5rem 0 0.5rem 0;
+  color: rgba(237,110,81,1);
+}
+h6{
+  font-size:1.15rem;
+  line-height: 1.25;
+  font-family: 'Work Sans';
+  font-weight: 400;
+  margin: 0;
+  padding: 0.4rem 0 0.3rem 0;
+  color: rgba(237,110,81,1);
+}
+p{
+  font-size:1.0rem;
+  line-height: 1.4;
+  /*line-height: 1.2rem;*/
+  margin: 0;
+  padding: 0.25rem 0 0.25rem 0;
+  font-family:'Arial', sans-serif;
+  font-weight: 400;
+  color: #000;
+}
+pre{
+  display: block !important;
+  width: 100% !important;
+  font-size:1.0rem;
+  line-height: 1.4;
+  /*line-height: 1.2rem;*/
+  margin: 0;
+  padding: 0.25rem 0 0.25rem 0;
+  font-family:'Georgia', serif;
+  font-weight: 400;
+  color: #000;
+}
+blockquote{
+  font-size:1.0rem;
+  line-height: 1.4;
+  margin: 0.25rem 0;
+  padding: 0.25rem 1.0rem 0.25rem 1.5rem;
+  font-family:'Arial', sans-serif;
+  font-weight: 400;
+  color: #000;
+  border-radius: 0.25rem;
+  /*background-color: #dedede !important;
+  box-shadow: 0 0.1rem 0.3rem #a2a9b1 !important;
+  /*-webkit-box-shadow: 0 15px 10px #777 !important;
+  -moz-box-shadow: 0 15px 10px #777 !important;
+  box-shadow: 0 15px 10px #777 !important;
+  box-shadow: 0 0 0.3rem #a2a9b1 !important;
+  box-shadow: 0 1px 2px 0 rgba(60,64,67,0.3),0 1px 3px 1px rgba(60,64,67,0.15) !important;*/
+  background-color: #f3f6fc !important;
+  border: solid 1px #c7c7c7 !important;
+  border-left: solid 5px rgba(237,110,81,0.5) !important;
+}
+
+ul, ol{
+  margin: 0;
+  padding: 0;
+}
+li{
+  font-size:1.0rem;
+  /*line-height: 1.2rem;*/
+  line-height: 1.4;
+  margin: 0;
+  padding: 0.25rem 0 0.25rem 1.25rem;
+  font-family:'Arial', sans-serif;
+  font-weight: 400;
+  /*list-style-type: disc;*/
+  /*text-indent: 0rem;*/
+  text-indent: -1.25rem;
+  color: #000;
+}
+li{/*list-style-position:outside*/}
+
+.exe-text{
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100% !important;
+  border: 0 !important;
+}
+.exe-accordion, .exe-tabs, .exe-paginated, .exe-carousel, .emphasis0, .emphasis1{
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 98% !important;
+}
+.exe-text a{
+  text-decoration: none !important;
+}
+.fx-page-content, .fx-page-content p{
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.exe-text h2, .fx-page-content h2, .fx-carousel-content h2{
+  font-size:1.45rem;
+  line-height: 1.2;
+  font-family:'Work Sans SemiBold';
+  font-weight: 600;
+  margin: 0;
+  padding: 0.6rem 0 0.6rem 0;
+  color: #000;
+}
+.fx-page-content h2, .fx-carousel-content h2{
+  font-size:1.45rem !important;
+  line-height: 1.2 !important;
+  font-family:'Work Sans SemiBold' !important;
+  font-weight: 600 !important;
+  padding: 0.6rem 0 0.6rem 0.6rem !important;
+}
+.fx-timeline-major h2 a{
+  border: solid 1px #333 !important;
+  background-color: #cdcdcd !important;
+  color: #333 !important;
+  font-size:1.3rem !important;
+  line-height: 1.2 !important;
+  font-family:'Work Sans Medium' !important;
+  font-weight: 500 !important;
+  margin: 0 !important;
+  padding: 0.5rem 0.75rem 0.5rem 0.75rem !important;
+}
+.fx-timeline-major h2 a:hover{
+  background-color: #a2a9b1 !important;
+  color: #111 !important;
+}
+.fx-timeline-minor h3 a{
+  color: #666 !important;
+  font-family:'Work Sans SemiBold' !important;
+  font-weight: 600 !important;
+}
+.fx-timeline-minor h3 a:hover{
+  color: #000 !important;
+}
+.fx-tabs li, .fx-pagination li{
+	text-indent: 0 !important;
+}
+.fx-tabs li a, .fx-pagination li a{
+	text-decoration: none !important;
+  color: #111 !important;
+}
+.fx-tabs .fx-current a{
+  color: #000 !important;
+  font-weight: 600 !important;
+}
+.fx-pagination .fx-current a{
+  background-color: #666 !important;
+  color: #fff !important;
+}
+.fx-pagination .fx-current a:hover{
+  background-color: #333 !important;
+  color: #fff !important;
+}
+.fx-tabs li a:hover, .fx-pagination li a:hover{
+	color: #000 !important;
+  background-color: #bababa !important;
+  font-weight: 600 !important;
+}
+.fx-accordion-section{
+  width: 100% !important;
+  background-color: #fff !important;
+  border: solid 1px #a2a9b1 !important;
+  border-radius: 0.25rem !important;
+  /*border-bottom: solid 1px #333 !important;*/
+}
+.fx-accordion-title{
+  width: 100% !important;
+  background-color: #cdcdcd !important;
+  border: solid 1px #a2a9b1 !important;
+  /*border-bottom: solid 1px #333 !important;*/
+}
+.fx-accordion-title:first-child{
+  border-radius: 0.25rem 0.25rem 0 0 !important;
+}
+.fx-accordion-title:last-child{
+  border-radius: 0 0 0.25rem 0.25rem !important;
+}
+.fx-accordion-title:hover{
+  background-color: #a2a9b1 !important;
+}
+.fx-accordion-title h2{
+  padding: 0rem 0 0rem 0 !important;
+  color: #111 !important;
+  font-size:1.3rem !important;
+  line-height: 1.2 !important;
+  font-family:'Work Sans Medium' !important;
+  font-weight: 500  !important;
+  margin: 0 !important;
+}
+
+.score.js-feedback{margin-bottom:1em}
+
+#header,#emptyHeader,#nodeDecoration{
+  padding:0 20px;
+  height:;
+  min-height:;
+  border:0;
+  /*font-size:1.7em;
+  font-family:'Work Sans Bold';*/
+}
+#headerContent{
+  font-weight: 600;
+  font-family: 'Work Sans SemiBold';
+  /*font-family:'Work Sans Bold';*/
+/*padding-top:70px*/}
+#header h1,#nodeDecoration h1{
+  margin:0rem 0 0rem 0 !important;
+  font-size: 1.2rem !important;
+  line-height: 1.4rem !important;
+  font-family:'Work Sans SemiBold' !important;
+  text-align: left !important;
+  font-weight: 600 !important;
+  color: rgba(237,110,81,1); !important;
+}
+#nodeDecoration{margin-bottom: 0px} /* Single page */
+
+#header-options{
+  margin: 0;
+  padding: 0;
+  position: absolute;
+}
+#header-options #toggle-nav{
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  background-image: url(menu.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#header-options #toggle-nav span{
+  /*padding: 1rem 0 0 1rem;*/
+  opacity: 0;
+}
+.nodeDecoration h1{font-size:1.5em}
+#made-with-eXe{
+  display: none !important;
+}
+/* iDevices */
+.iDevice{
+  margin:20px 0 30px 0;
+  padding: 0;
+}
+.iDevice_header{
+  letter-spacing:0.5px;
+  margin: 0;
+  padding: 0;
+  padding: 20px 0px 0em 20px;
+  height:auto !important;
+  position:relative;
+  height:1.2rem;*/
+  font-family:'Work Sans Medium';
+  font-weight: 500;
+  min-height:1.7rem;
+  border-color:#dddddd;
+  background-color: rgba(237,110,81,1) !important;
+}
+/*.iDevice_header[style]{background-image:none !important}*/
+
+.iDeviceTitle{
+  font-size:1.1rem !important;
+  font-family:'Work Sans Medium' !important;
+  font-weight: 500 !important;
+  margin:0 !important;
+  padding: 0 !important;
+  top:auto;
+  vertical-align:bottom !important;
+  padding:0px 10px 0px 30px !important;
+  line-height: 1.3rem !important;
+  display:inline-block !important;
+  font-weight:300;
+  background-repeat:no-repeat !important;
+  background-position:0 50% !important;
+  background-size: contain !important;
+  display:inline !important;
+  /*text-transform: lowercase;*/
+  color: #000 !important;
+}
+.iDevice_inner{
+  margin: 0 !important;
+  padding: 0 !important;
+  /*padding:10px 20px;*/
+  border-width:0px !important;
+  border-style:solid !important;
+  border-radius:5px !important;
+  border-color:#dddddd !important;
+  color: #000 !important;
+}
+
+/* Clearfix */
+.iDevice_content{
+  overflow:auto;
+  margin: 0;
+	padding: 0;
+}
+.FileAttachIdeviceInc .iDevice_content{
+  /*margin-bottom:-.5em;*/
+  margin: 0;
+	padding: 0;
+}
+
+/* Hide/Show iDevice */
+.toggle-idevice{
+  /*display: block;*/
+  display: inline-block;
+  margin:0;
+  text-align:right;
+}
+
+.iDevice_header .toggle-idevice{
+  position:absolute;
+  top: 7px;
+  right: 5px;
+}
+.toggle-idevice a{
+  display:inline-block;
+  width:16px;
+  height:16px;
+  background:url(_style_icons.png) no-repeat -50px -50px;
+  outline:none;
+}
+.toggle-idevice .show-idevice{background-position:0 -50px}
+.toggle-idevice span{position:absolute;overflow:hidden;clip:rect(0,0,0,0);height:0}
+.toggle-idevice a:hover,.toggle-idevice a:focus{filter:alpha(opacity=100);opacity:1}
+
+/* iDevice title with background-color */
+input.feedbackbutton{margin:0}
+.iDevice_header{
+  border-width:1px;
+  border-style:solid;
+  /*padding-left:13px;*/
+  /*border-top-left-radius:5px;
+  border-top-right-radius:5px;*/
+  border-radius: 5px;
+}
+.hidden-idevice .iDevice_header{border-radius:5px}
+.iDevice_header .toggle-idevice{/*margin-right:15px*/}
+.iDevice_inner{border-top-right-radius:0;border-top-left-radius:0;border-top:0}
+
+.ExternalUrlIdevice iframe{border:0}
+
+/* Reset base.css */
+.block,.feedback{padding:0}
+.feedback{font-family:inherit;font-size:1em}
+
+.styled-qc{margin-top:2.5em}
+.exe-dl .icon,.exe-dl-toggler a{width:24px;height:24px;border-radius:12px}
+.exe-dl-toggler a{line-height:22px}
+.js .exe-dl dd{margin-left:44px}
+.exe-enlarge-icon b{font-size:1.2em}
+
+/* Forms */
+input,select{
+  font-size:0.8rem;
+  line-height: 0.8rem;
+  font-family:inherit;
+  background-color: #fff;
+  border: 0;
+  border-bottom: solid 1px #333;
+  color: #000;
+  border-radius: 0;
+}
+input:focus, input:hover{
+  background-color: #eee;
+  color: #000;
+  border-bottom: solid 1px #000;
+}
+.iDevice_hint_title a{/*padding-left:25px*/}
+.iDevice_buttons input{
+  font-size:0.9rem;
+  margin: 0.25rem 0.5rem 0.25rem 0;
+  padding:.25rem .60rem;
+  border: solid 1px #333;
+  background-color: #fff;
+  border-radius: 5px;
+  color: #000;
+}
+.iDevice_buttons input:hover{
+  color: #fff;
+  background-color: #333;
+}
+
+.MultichoiceIdevice .feedback p:first-child{margin-top: 0}
+.MultichoiceIdevice .activity-form,.MultiSelectIdevice .activity-form{margin-bottom: 1rem;}
+.TrueFalseIdevice .activity-form{margin-top: 1.2rem;}
+.TrueFalseIdevice .activity-form:first-child{margin-top:0;}
+.TrueFalseIdevice label{margin:0 0.5rem;}
+.MultichoiceIdevice input,.MultiSelectIdevice input[type=checkbox],.QuizTestIdevice input[type=radio]{width:16px;height:16px;margin:5px 0 0 12px}
+.custom-inputs .iDevice_answer-field{width:40px;}
+.custom-inputs  .iDevice_answer-content,.custom-inputs  .iDevice_answer-feedback{padding-left:55px}
+.custom-inputs  .iDevice_answer-content{padding-top:4px}
+.styledRadio,.styledCheckbox{margin-left:12px}
+.MultichoiceIdevice .feedback{margin-top:1em}
+.right-option,.wrong-option{font-style:italic}
+.readingIdevice .iDevice_content:first-child p:last-child,
+.CasestudyIdevice .iDevice_content:first-child p:last-child{margin-bottom:0}
+.readingIdevice .feedbackbutton,
+.CasestudyIdevice .feedbackbutton,
+.ReflectionIdevice .feedbackbutton{margin:.5em 0 1em 0}
+
+/* Licenses */
+#packageLicense{margin:0.75rem 0 0em 0;text-align:left;line-height:1.2em;font-size:.9em}
+#packageLicense.cc{padding-left:95px;background:url(_style_licenses.png) no-repeat 0 0}
+#packageLicense.cc-by-sa{background-position:0 -100px}
+#packageLicense.cc-by-nd{background-position:0 -200px}
+#packageLicense.cc-by-nc-sa{background-position:0 -300px}
+#packageLicense.cc-by-nc-nd{background-position:0 -400px}
+#packageLicense.cc-0{background-position:0 -500px}
+#siteFooter{padding:0px}
+
+/* Lightbox */
+.lightboxOverlay{filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=95);opacity:0.95}
+#lightbox .lb-caption{font-size:1em}
+
+/* Effects - iDevices with emphasis */
+.emphasis1 .exe-fx .fx-C2,
+.emphasis1 .exe-fx .fx-C2 a,
+.emphasis1 .fx-pagination a{
+background:#ededed;
+}
+
+
+
+/* eXeLearning Style Designer */
+
+.iDeviceTitle{
+  background-image:url(star.svg);
+/*background-image:url(icon_star.png); FALTA*/
+}
+.activityIdevice .iDeviceTitle{
+/*background-image:url(ico_actividad.png);*/
+background-image:url(ico_actividad.svg);
+}
+.readingIdevice .iDeviceTitle{
+/*background-image:url(ico_lectura.png);*/
+background-image:url(ico_lectura.svg);
+}
+.FileAttachIdeviceInc .iDeviceTitle{
+/*background-image:url(ico_descarga.png);*/
+background-image:url(ico_descarga.svg);
+}
+.WikipediaIdevice .iDeviceTitle{
+/*background-image:url(icon_description.png); //FALTA*/
+background-image:url(icon_description.svg);
+}
+.ListaIdevice .iDeviceTitle,.QuizTestIdevice .iDeviceTitle,.MultichoiceIdevice .iDeviceTitle,.TrueFalseIdevice .iDeviceTitle,.MultiSelectIdevice .iDeviceTitle,.ClozeIdevice .iDeviceTitle{
+/*background-image:url(ico_actividad.png);*/
+background-image:url(ico_actividad.svg);
+}
+.preknowledgeIdevice .iDeviceTitle{
+/*background-image:url(ico_conocimientos_previos.png);*/
+background-image:url(ico_conocimientos_previos.svg);
+}
+
+.GalleryIdevice .iDeviceTitle{
+/*background-image:url(icon_media.png);*/
+background-image:url(icon_media.svg);
+}
+.objectivesIdevice .iDeviceTitle{
+/*background-image:url(ico_objetivos.png);*/
+background-image:url(ico_objetivos.svg);
+}
+.ReflectionIdevice .iDeviceTitle{
+/*background-image:url(ico_reflexion.png);*/
+background-image:url(ico_reflexion.svg);
+}
+body{
+/*fontFamily*/
+font-family:'Work Sans',Arial,Verdana, Geneva, Helvetica, sans-serif;
+/*bodyColor*/
+color:#000;
+/*contentBGColor*/
+/*background-color:#f9f9f9;*/
+}
+a{
+/*aColor*/
+/*color:#2495ff;*/
+}
+#header,#emptyHeader,#nodeDecoration{
+/*headerHeight*/
+/*height:130px;min-height:130px;*/
+/*headerBGColor*/
+background-color:#ffffff;
+/*headerBGURL*/
+/*headerBGRepeat*/
+background-repeat:no-repeat;
+/*headerBGPosition*/
+}
+#headerContent{
+/*headerTitleTopMargin*/
+/*padding-top:70px;*/
+}
+#siteFooter{
+/*border:1px solid /*footerBorderColor*/
+/*#dddddd;*/
+/*footerBGColor*/
+}
+
+
+/************************************************************************/
+/* Tablas para lecturas de ciencias 										*/
+/************************************************************************/
+.ceedLecturaActividadCiencias {
+	display:block;
+	position:relative;
+	margin:10px;
+	padding:30px;
+	width:90% !important;
+	margin: 0 auto;
+	text-indent: 50px;
+	background-color: #fff;
+	background:url(fondoActividad.jpg);
+	margin-bottom: 30px;
+	-webkit-box-shadow: 9px 9px 5px -2px rgba(148,146,148,0.81);
+	-moz-box-shadow: 9px 9px 5px -2px rgba(148,146,148,0.81);
+	box-shadow: 9px 9px 5px -2px rgba(148,146,148,0.81);
+  color: #000;
+}
+.ceedLecturaActividadCiencias tr:first-child td{
+	text-transform:uppercase;
+	text-align:center;
+	font-weight: bold;
+	padding: 8px;
+}
+.ceedLecturaActividadCiencias tr:last-child td
+{
+	text-align:right;
+	font-size: 0.7rem;
+	line-height: 0.8rem;
+	font-weight: normal;
+}
+
+
+/************************************************************************/
+/* Tablas para lecturas de textos actividades   						*/
+/************************************************************************/
+.ceedLecturaActividadLetras {
+	display: block;
+	position: relative;
+	margin:10px;
+	padding:30px;
+	width:90% !important;
+	margin: 0 auto;
+	text-indent: 50px;
+	background-color: #fff;
+	background-image:
+	linear-gradient(90deg, transparent 19px, #abced4 19px, #abced4 21px, transparent 21px),
+	linear-gradient(#eee .1em, transparent .1em);
+	background-size: 100% 1.1em;
+	margin-bottom: 30px;
+	-webkit-box-shadow: 9px 9px 5px -2px rgba(148,146,148,0.81);
+	-moz-box-shadow: 9px 9px 5px -2px rgba(148,146,148,0.81);
+	box-shadow: 9px 9px 5px -2px rgba(148,146,148,0.81);
+}
+.ceedLecturaActividadLetras tr:first-child td
+{
+	text-transform:uppercase;
+	text-align:center;
+	font-weight: bold;
+	padding: 8px;
+}
+.ceedLecturaActividadLetras tr:last-child td
+{
+	text-align:right;
+	font-size: 0.7em;
+	line-height: 0.8em;
+	font-weight: normal;
+}
+
+/************************************************************************/
+/* Tablas para lecturas de textos 										*/
+/************************************************************************/
+.ceedLecturaActividad {
+	display:block;
+	position:relative;
+	margin:10px;
+	padding:30px;
+	width:90% !important;
+	margin: 0 auto;
+	text-indent: 50px;
+	background-color: #cdd5ac;
+	background-size: 100% 1.1em;
+	margin-bottom: 30px;
+	-webkit-box-shadow: 9px 9px 5px -2px rgba(148,146,148,0.81);
+	-moz-box-shadow: 9px 9px 5px -2px rgba(148,146,148,0.81);
+	box-shadow: 9px 9px 5px -2px rgba(148,146,148,0.81);
+}
+.ceedLecturaActividad tr:first-child td{
+	text-transform:uppercase;
+	text-align:center;
+	font-weight: bold;
+	padding: 8px;
+}
+.ceedLecturaActividad tr:last-child td{
+	text-align:right;
+	font-size: 0.7em;
+	line-height: 0.8em;
+	font-weight: normal;
+}
+
+
+
+/************************************************************************/
+/* Tablas normales para cualquier cosa con encabezado y líneas de borde */
+/************************************************************************/
+table {
+  border-collapse: collapse !important;
+  width: 100% !important;
+  border: 1px solid #999 !important;
+  margin: 0 !important;
+  font-size:0.8rem !important;
+  line-height: 1.1rem !important;
+  font-family:'Work Sans' !important;
+  text-indent: 0 !important;
+  border-spacing: 0 !important;
+}
+td, th{
+  padding: 0.25rem !important;
+}
+.ceedTablaEstandar{
+		border-color:#dddddd;
+		margin: 0 auto;
+		color: #000;
+    /*background-color: rgba(127,135,147,0.1);*/
+		border: solid 5px #fff;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    /*border: 1px solid #cdcdcd;*/
+		text-align: left;
+		vertical-align:center;
+		top:auto;
+		empty-cells: hide;
+		caption-side: bottom;
+    padding: 0.25rem !important;
+    border-collapse: collapse;
+    width: 100% !important;
+    margin: 0 !important;
+    font-size:0.9rem !important;
+    line-height: 1.2 !important;
+    font-family:'Work Sans' !important;
+    text-indent: 0 !important;
+}
+.ceedTablaEstandar  tr:first-child td{
+	text-align: left;
+	font-weight: 600;
+	background: rgba(237,110,81,0.6);
+	color: #000;
+	text-transform: uppercase;
+  font-family: 'Work Sans SemiBold';
+  font-size:0.8rem !important;
+  line-height: 1.2rem !important;
+}
+
+.ceedTablaEstandar  tr:hover:not(:first-child) td{
+	background: rgba(127,135,147,0.5);
+}
+
+.ceedTablaEstandar tr:nth-child(even) {
+    background-color: rgba(127,135,147,0.4);
+    }
+
+ .ceedTablaEstandar tr:nth-child(odd) {
+    background-color: rgba(127,135,147,0.2);
+    }
+
+/*th{
+  background-color: #ddd;
+  font-weight: 500;
+  font-family:'Work Sans Medium';
+}*/
+.ceedTablaEstandar th, .ceedTablaEstandar td {
+  border: 0;
+  /*border-bottom: 2px solid #fff;
+  border-top: 2px solid #fff;
+  border: 3px solid #fff;*/
+  /*border: solid 1px #cdcdcd;*/
+  border: solid 5px #fff;
+  padding: 0.25rem;
+  font-size:0.9rem !important;
+  line-height: 1.2 !important;
+  margin: 0;
+  font-family:'Work Sans' !important;
+  text-indent: 0 !important;
+  background-color: rgba(127,135,147,0.02);
+}
+/*tr:hover {
+  background-color: #eee;
+}*/
+
+
+/**********************************************************************************************************************/
+/* OJO este estilo requiere que se modifique a mano el código HTML de la tabla sobre la que se aplica
+Hace falta añadir un bloque THEAD y TH y además en la etiqueta table lo siguiente data-tablesaw-mode="stack" . Ejemplo:
+	<table class=" ceedTablaAdaptable" data-tablesaw-mode="stack">
+        <thead>
+          <tr>
+            <th>Country</th>
+            <th>Languages</th>
+            <th>Population</th>
+            <th>Median Age</th>
+            <th>Area (Km²)</th>
+          </tr>
+        </thead>
+        <tbody>
+***************************************************************************************************************************/
+/*! Tablesaw - v1.0.4 - 2015-02-19
+* https://github.com/filamentgroup/tablesaw
+* Copyright (c) 2015 Filament Group; Licensed MIT */
+
+.ceedTablaAdaptable{
+
+	}
+
+
+@media not print {
+	/* Table rows have a gray bottom stroke by default */
+	.ceedTablaAdaptable{
+		border-color:#dddddd;
+		width:100%;
+	}
+
+	.ceedTablaAdaptable tbody tr {
+	  border-bottom: 1px solid #dfdfdf;
+	}
+
+	  .ceedTablaAdaptable  tr:hover td{
+		background: #b9c9fe;
+	}
+
+	.ceedTablaAdaptable th {
+		font-weight: bolder;
+		background: #cdd5ac;
+		border-bottom: 1px solid #fff;
+		color: #000000;
+		text-transform:uppercase;
+	}
+	.ceedTablaAdaptable td .tablesaw-cell-label,
+	.ceedTablaAdaptable th .tablesaw-cell-label {
+	  display: none;
+	}
+}
+	/* Mobile first styles: Begin with the stacked presentation at narrow widths */
+
+	@media only all {
+	  /* Show the table cells as a block level element */
+
+	  .ceedTablaAdaptable td,
+	  .ceedTablaAdaptable th {
+		text-align: left;
+		display: block;
+	  }
+
+	  .ceedTablaAdaptable tr {
+		clear: both;
+		display: table-row;
+	  }
+
+	  /* Make the label elements a percentage width */
+
+	  .ceedTablaAdaptable td .tablesaw-cell-label,
+	  .ceedTablaAdaptable th .tablesaw-cell-label {
+		display: block;
+		padding: 0 .6em 0 0;
+		min-width: 50%;
+		display: inline-block;
+	  }
+
+	  /* For grouped headers, have a different style to visually separate the levels by classing the first label in each col group */
+
+	  .ceedTablaAdaptable th .tablesaw-cell-label-top,
+	  .ceedTablaAdaptable td .tablesaw-cell-label-top {
+		display: block;
+		padding: .4em 0;
+		margin: .4em 0;
+	  }
+
+	  .tablesaw-cell-label {
+		display: block;
+	  }
+
+	  /* Avoid double strokes when stacked */
+
+	  .ceedTablaAdaptable tbody th.group {
+		margin-top: -1px;
+	  }
+
+	  /* Avoid double strokes when stacked */
+
+	  .ceedTablaAdaptable th.group b.tablesaw-cell-label {
+		display: none !important;
+	  }
+	}
+
+	@media (max-width: 39.9375em) {
+	  .ceedTablaAdaptable thead td,
+	  .ceedTablaAdaptable thead th {
+		display: none;
+	  }
+
+	  .ceedTablaAdaptable tbody td,
+	  .ceedTablaAdaptable tbody th {
+		clear: left;
+		float: left;
+		width: 100%;
+	  }
+
+	  .tablesaw-cell-label {
+		vertical-align: top;
+	  }
+
+	  .tablesaw-cell-content {
+		max-width: 67%;
+		display: inline-block;
+	  }
+
+	  .ceedTablaAdaptable td:empty,
+	  .ceedTablaAdaptable th:empty {
+		display: none;
+	  }
+	}
+
+	/* Media query to show as a standard table at 560px (35em x 16px) or wider */
+
+	@media (min-width: 40em) {
+	  .ceedTablaAdaptable tr {
+		display: table-row;
+	  }
+
+	  /* Show the table header rows */
+
+	  .ceedTablaAdaptable td,
+	  .ceedTablaAdaptable th,
+	  .ceedTablaAdaptable thead td,
+	  .ceedTablaAdaptable thead th {
+		display: table-cell;
+		margin: 0;
+	  }
+
+	  /* Hide the labels in each cell */
+
+	  .ceedTablaAdaptable td .tablesaw-cell-label,
+	  .ceedTablaAdaptable th .tablesaw-cell-label {
+		display: none !important;
+	  }
+	}
+
+
+@media print {
+  html{font-size:105%}
+  body{
+    font-family:'Arial', Verdana,Helvetica,sans-serif;
+    font-size: 12pt !important;
+    line-height: 14pt !important;
+    padding: 15px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
+    text-align:left;
+    background:#fff;
+    color:#000;
+    color-adjust: exact !important;
+    -webkit-print-color-adjust:exact !important;
+    print-color-adjust: exact !important;
+  }
+  h1{
+    /*font-size:2.0rem;*/
+    font-size:1.72rem;
+    line-height: 1.05;
+    font-family: 'Work Sans Black';
+    font-weight: 900;
+    margin: 0;
+    padding: 0.9rem 0 0.9rem 0;
+    color: #000;
+  }
+  h2{
+    /*font-size:1.75rem !important;*/
+    font-size:1.60rem;
+    line-height: 1.15 !important;
+    font-family:'Work Sans ExtraBold' !important;
+    font-weight: 800 !important;
+    margin: 0 !important;
+    padding: 0.8rem 0 0.8rem 0 !important;
+    color: #000 !important;
+  }
+  h3{
+    /*font-size:1.6rem;*/
+    font-size:1.48rem;
+    line-height: 1.15;
+    font-family:'Work Sans Bold';
+    font-weight: 700;
+    margin: 0;
+    padding: 0.7rem 0 0.7rem 0;
+    color: #000;
+  }
+  h4{
+    /*font-size:1.45rem;*/
+    font-size:1.36rem;
+    line-height: 1.2;
+    font-family:'Work Sans SemiBold';
+    font-weight: 600;
+    margin: 0;
+    padding: 0.6rem 0 0.6rem 0;
+    color: #000;
+  }
+  h5{
+    /*font-size:1.3rem;*/
+    font-size:1.24rem;
+    line-height: 1.2;
+    font-family:'Work Sans Medium';
+    font-weight: 500;
+    margin: 0;
+    padding: 0.5rem 0 0.5rem 0;
+    color: #000;
+  }
+  h6{
+    /*font-size:1.15rem;*/
+    font-size:1.12rem;
+    line-height: 1.25;
+    font-family: 'Work Sans';
+    font-weight: 400;
+    margin: 0;
+    padding: 0.4rem 0 0.3rem 0;
+    color: #000;
+  }
+  p{
+    font-size:1.0rem  !important;
+    line-height: 1.4 !important;
+    /*line-height: 1.2rem;*/
+    margin: 0 !important;
+    padding: 0.25rem 0 0.25rem 0 !important;
+    font-family:'Arial', sans-serif !important;
+    font-weight: 400 !important;
+    color: #000 !important;
+  }
+  pre{
+    display: block !important;
+    width: 100% !important;
+    font-size:1.0rem;
+    line-height: 1.4;
+    /*line-height: 1.2rem;*/
+    margin: 0;
+    padding: 0.25rem 0 0.25rem 0;
+    font-family:'Georgia', serif;
+    font-weight: 400;
+    color: #000;
+  }
+
+
+  ul, ol{
+    margin: 0;
+    padding: 0;
+  }
+  li{
+    font-size:1.0rem;
+    /*line-height: 1.2rem;*/
+    line-height: 1.4;
+    margin: 0;
+    padding: 0.25rem 0 0.25rem 1.25rem;
+    font-family:'Arial', sans-serif;
+    font-weight: 400;
+    /*list-style-type: disc;*/
+    /*text-indent: 0rem;*/
+    text-indent: -1.25rem;
+    color: #000;
+  }
+  li{/*list-style-position:outside*/}
+
+
+  h1, h2, h3, h4, h5, h6{
+    page-break-after: avoid !important;
+    page-break-inside: avoid !important;
+  }
+  #header, #headerContent{
+    /*background-color: yellow !important;
+    background-image: url('gvaEdu.png') !important;
+    background-image: url('gvaCeedcvT.svg') !important;
+    height: 500px;*/
+		/*background-position: 45% 0.5rem;
+		background-size: auto 40%;
+	  background-repeat: no-repeat !important;*/
+    margin: 3rem 0 0 0 !important;
+  }
+  #headerContent h1{
+    font-size: 4rem !important;
+    line-height: 4rem !important;
+    color: rgba(237,110,81,1) !important;
+    text-transform: uppercase !important;
+    font-family: 'Work Sans ExtraBold' !important;
+  	font-weight: 800 !important;
+    padding: 2.0rem 0 0rem 0 !important;
+    page-break-before: avoid !important;
+    page-break-inside: avoid !important;
+    page-break-after: avoid !important;
+
+  }
+  .level-1-node .nodeDecoration .nodeTitle{
+    /*font-size: 3.25rem !important;
+    line-height: 3.25rem !important;
+    font-size: 2.75rem !important;
+    line-height: 2.75rem !important;*/
+    font-size: 2.5rem !important;
+    line-height: 3.5rem !important;
+    font-family: 'Work Sans ExtraBold' !important;
+  	font-weight: 800 !important;
+    padding: 1.5rem 0 2.5rem 0;
+    color: rgba(237,110,81,1) !important;
+    page-break-inside: avoid !important;
+    page-break-before: avoid !important;
+    page-break-after: avoid !important;
+    orphans: 3 !important;
+    widows: 3 !important;
+    /*page-break-after: always !important;*/
+  }
+  .level-2-node .nodeDecoration .nodeTitle{
+    /*font-size: 3.0rem !important;
+    line-height: 3rem !important;
+    font-size: 2.6rem !important;
+    line-height: 2.6rem !important;*/
+    font-size: 2rem !important;
+    line-height: 2rem !important;
+    font-family: 'Work Sans ExtraBold' !important;
+  	font-weight: 800 !important;
+    /*padding: 0rem 0 0.75rem 3.0rem;*/
+    padding: 0rem 0 0.75rem 0.0rem;
+    color: rgba(237,110,81,1) !important;
+    page-break-inside: avoid !important;
+    page-break-before: avoid !important;
+    page-break-after: avoid !important;
+    orphans: 3 !important;
+    widows: 3 !important;
+    /*text-indent: -3.0rem !important;*/
+  }
+  .level-3-node .nodeDecoration .nodeTitle{
+    /*font-size: 2.75rem !important;
+    line-height: 2.75rem !important;
+    font-size: 2.45rem !important;
+    line-height: 2.45rem !important;*/
+    font-size: 1.5rem !important;
+    line-height: 1.5rem !important;
+    font-family: 'Work Sans Bold' !important;
+  	font-weight: 700 !important;
+    /*padding: 4rem 0 0.75rem 5.0rem;*/
+    padding: 4rem 0 0.75rem 0.0rem;
+    color: rgba(237,110,81,1) !important;
+    page-break-inside: avoid !important;
+    page-break-before: avoid !important;
+    page-break-after: avoid !important;
+    orphans: 3 !important;
+    widows: 3 !important;
+    /*text-indent: -5.0rem !important;*/
+  }
+  .level-4-node .nodeDecoration .nodeTitle{
+    /*font-size: 2.5rem !important;
+    line-height: 2.5rem !important;
+    font-size: 2.3rem !important;
+    line-height: 2.3rem !important;*/
+    font-size: 1.2rem !important;
+    line-height: 1.2rem !important;
+    font-family: 'Work Sans SemiBold' !important;
+  	font-weight: 600 !important;
+    /*padding: 4rem 0 0.75rem 6.0rem;*/
+    padding: 4rem 0 0.75rem 0.0rem;
+    color: rgba(237,110,81,1) !important;
+    page-break-inside: avoid !important;
+    page-break-before: avoid !important;
+    page-break-after: avoid !important;
+    orphans: 3 !important;
+    widows: 3 !important;
+    /*text-indent: -6.0rem !important;*/
+  }
+  .level-5-node .nodeDecoration .nodeTitle{
+    /*font-size: 2.25rem !important;
+    line-height: 2.25rem !important;
+    font-size: 2.15rem !important;
+    line-height: 2.15rem !important;*/
+    font-size: 1rem !important;
+    line-height: 1rem !important;
+    font-family: 'Work Sans SemiBold' !important;
+  	font-weight: 600 !important;
+    /*padding: 4rem 0 0.75rem 7.5rem;*/
+    padding: 4rem 0 0.75rem 0rem;
+    color: rgba(237,110,81,1) !important;
+    page-break-inside: avoid !important;
+    page-break-before: avoid !important;
+    page-break-after: avoid !important;
+    orphans: 3 !important;
+    widows: 3 !important;
+    /*text-indent: -7.5rem !important;*/
+  }
+  .level-1-node{
+    page-break-inside: avoid !important;
+    page-break-before: avoid !important;
+    page-break-after: always !important;
+  }
+  .level-2-node{
+    page-break-inside: avoid !important;
+    page-break-before: always !important;
+    page-break-after: avoid !important;
+  }
+  .level-3-node{
+    page-break-inside: avoid !important;
+    page-break-before: avoid !important;
+    page-break-after: avoid !important;
+  }
+  .level-4-node{
+    page-break-inside: avoid !important;
+    page-break-before: avoid !important;
+    page-break-after: avoid !important;
+  }
+  .level-5-node{
+    page-break-inside: avoid !important;
+    page-break-before: avoid !important;
+    page-break-after: avoid !important;
+  }
+  p {
+    orphans: 3 !important;
+    widows: 3 !important;
+  }
+
+  .iDevice_header, .iDevice_header_noIcon{
+    /*background-image: url() !important;*/
+    border: solid 2px #000 !important;
+    padding: 0.75rem 0 1.0rem 0rem !important;
+    margin: 2.25rem 0 0.75rem 0rem !important;
+    page-break-after: avoid !important;
+    page-break-inside: avoid !important;
+    /*page-break-before: avoid !important;
+    orphans: 3 !important;
+    widows: 3 !important;*/
+  }
+	.iDeviceTitle{
+    /*background: #fff;*/
+    /*font-size: 2.25rem !important;
+    line-height: 2.25rem !important;
+    font-size: 2.15rem !important;
+    line-height: 2.15rem !important;*/
+    font-size: 1.84rem !important;
+    line-height: 1.84rem !important;
+    font-family: 'Work Sans Medium' !important;
+  	font-weight: 500 !important;
+    margin: 0 !important;
+    padding: 0 0.5rem 0 1.0rem !important;
+    display: block !important;
+    /*background-image:url(star.svg) !important;*/
+    /*background-image:url(icon_star.png)!important;*/
+    background: none !important;
+    /*padding: 0.7rem 0 0.7rem 0 !important;*/
+    page-break-after: avoid !important;
+    page-break-inside: avoid !important;
+    /*page-break-before: avoid !important;*/
+    /*text-indent: -0.5rem !important;
+    orphans: 3 !important;
+    widows: 3 !important;*/
+  }
+  .iDevice, .iDevice_wrapper{
+    /*margin: 2.5rem 0 0.5rem 0 !important;*/
+    page-break-inside: always !important;
+    page-break-before: avoid !important;
+    page-break-after: avoid !important;
+    orphans: 3 !important;
+    widows: 3 !important;
+  }
+  .FreeTextIdevice, .textIdevice{
+    page-break-inside: always !important;
+    page-break-before: avoid !important;
+  /*  orphans: 3 !important;
+    widows: 3 !important;*/
+  }
+  .exe-timeline{
+    page-break-inside: avoid !important;
+  }
+  .iDevice_buttons input{
+    font-size: 1.25rem !important;
+    line-height: 1.25rem !important;
+    font-weight: 500 !important;
+    font-family:'Work Sans Medium' !important;
+    padding: 0.4rem 0.6rem !important;
+  }
+  .feedback{
+    page-break-before: avoid !important;
+  }
+  .fx-accordion-content{
+    display: block !important;
+  }
+  .fx-accordion-content p{
+    font-size:1.0rem !important;
+    line-height: 1.4 !important;
+    /*line-height: 1.2rem;*/
+    margin: 0 !important;
+    padding: 0.25rem 0 0.25rem 0 !important;
+    font-family:'Arial', sans-serif !important;
+    font-weight: 400 !important;
+    color: #000 !important;
+  }
+  /*#siteNav,#nav-toggler,.noprt,.toggle-idevice{display:none;}*/
+  #siteNav{
+    display: block !important;
+  }
+  #siteNav ul, #siteNav li{
+  	margin:0; padding:0; list-style:none;
+  	font-family: 'Work Sans Medium';
+    display: block !important;
+  }
+  #siteNav a{
+  	display:block !important;
+  	padding: 8px 10px 8px 20px;
+  	border-bottom: solid 1px;
+  	border-left: solid 5pt #333;
+  	text-indent: 0;
+  	color:#333;
+  }
+  #nav-toggler,.noprt,.toggle-idevice{display:none;}
+  /*body:before { content: url(gvaEdu.png);}*/
+  body{
+    background: url(gvaEdu.png) !important;
+		background-position: 45% 0.5rem !important;
+		background-size: auto 40% !important;
+	  background-repeat: no-repeat !important;
+  }
+  body #main,body.no-nav #main{padding:20px 0;}
+  body #content{
+    /*background: #FFF;*/
+    /*background: url(gvaEdu.png) !important;
+		background-position: 45% 0.5rem !important;
+		background-size: auto 40% !important;
+	  background-repeat: no-repeat !important;*/
+  }
+  #headerContent{
+    white-space:normal;
+    text-overflow:normal;
+    font-weight:bold;
+  }
+  .ceedTablaEstandar{
+    border: 1pt solid #333;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  * {
+      /*background:#fff !important;*/
+    }
+	.block {
+    background:#fff;
+  }
+	div {
+    background:#fff;
+  }
+  /*div.node{page-break-after:avoid;} /* base.css */
+
+    #main{margin-left:0} /* base.css */
+
+
+
+	/* Uncomment this to print URL after links:
+	a{font-weight:bolder;text-decoration:none!important}
+	a[href^=http]:after{content:" <" attr(href) "> "}
+	*/
+
+	body #header,body #emptyHeader,body #nodeDecoration{height:auto!important;min-height:0;border:none;padding:0;}
+	.ceedLecturaActividadCiencias, .ceedLecturaActividadLetras, .ceedLecturaActividad, .ceedTablaEstandar {background-color:#fff;color:#000;font-size:11pt}
+
+  blockquote{
+    width: 93% !important;
+    font-size:1.0rem !important;
+    line-height: 1.4 !important;
+    margin: 0.25rem auto !important;
+    padding: 0.25rem 1.0rem 0.25rem 1.5rem !important;
+    font-family:'Arial', sans-serif !important;
+    font-weight: 400 !important;
+    color: #000 !important;
+    border-radius: 0.25rem !important;
+    /*background-color: #dedede !important;
+    box-shadow: 0 0.1rem 0.3rem #a2a9b1 !important;
+    /*-webkit-box-shadow: 0 15px 10px #777 !important;
+    -moz-box-shadow: 0 15px 10px #777 !important;
+    box-shadow: 0 15px 10px #777 !important;
+    box-shadow: 0 0 0.3rem #a2a9b1 !important;
+    box-shadow: 0 1px 2px 0 rgba(60,64,67,0.3),0 1px 3px 1px rgba(60,64,67,0.15) !important;*/
+    background-color: #f3f6fc !important;
+    border: solid 1px #c7c7c7 !important;
+    border-left: solid 5px rgba(237,110,81,0.5) !important;
+    page-break-inside: avoid !important;
+    color: #000 !important;
+  }
+  blockquote p{
+    /*background-color: #dedede !important;*/
+    background-color: #f3f6fc !important;
+    color: #000 !important;
+  }
+
+
+  /* Table rows have a gray bottom stroke by default */
+  .ceedTablaAdaptable
+  {
+  }
+  .ceedTablaAdaptable th {
+    text-transform:uppercase;
+  }
+   .ceedTablaAdaptable tr {
+    display: table-row;
+    }
+    /* Show the table header rows */
+    .ceedTablaAdaptable td,
+    .ceedTablaAdaptable th,
+    .ceedTablaAdaptable thead td,
+    .ceedTablaAdaptable thead th {
+    display: table-cell;
+    margin: 0;
+    }
+    /* Hide the labels in each cell */
+    .ceedTablaAdaptable td .tablesaw-cell-label,
+    .ceedTablaAdaptable th .tablesaw-cell-label {
+    display: none !important;
+    }
+
+    table {
+      border-collapse: collapse !important;
+      width: 100% !important;
+      border: 1px solid #999 !important;
+      margin: 0 !important;
+      font-size:0.8rem !important;
+      line-height: 1.1rem !important;
+      font-family:'Work Sans' !important;
+      text-indent: 0 !important;
+      border-spacing: 0 !important;
+      page-break-inside: avoid !important;
+      background-color: #fff !important;
+      color: #000 !important;
+    }
+    td, th{
+      padding: 0.25rem !important;
+      color: #000 !important;
+    }
+    .ceedTablaEstandar{
+    		border-color:#dddddd;
+    		margin: 0 auto;
+    		color: #000 !important;
+        /*background-color: rgba(127,135,147,0.1);*/
+    		border: solid 5px #fff;
+        border-left: 0;
+        border-right: 0;
+        border-top: 0;
+        /*border: 1px solid #cdcdcd;*/
+    		text-align: left;
+    		vertical-align:center;
+    		top:auto;
+    		empty-cells: hide;
+    		caption-side: bottom;
+        padding: 0.25rem !important;
+        border-collapse: collapse;
+        width: 100% !important;
+        margin: 0 !important;
+        font-size:0.9rem !important;
+        line-height: 1.2 !important;
+        font-family:'Work Sans' !important;
+        text-indent: 0 !important;
+    }
+    .ceedTablaEstandar  tr:first-child td{
+    	text-align: left;
+    	font-weight: 600;
+    	background: rgb(237,110,81) !important;
+    	color: #000;
+    	text-transform: uppercase;
+      font-family: 'Work Sans SemiBold';
+      font-size:0.8rem !important;
+      line-height: 1.2rem !important;
+    }
+
+    .ceedTablaEstandar tr:nth-child(even) {
+        background-color: #dedede !important;
+        /*background-color: lightgreen !important;*/
+        }
+
+     .ceedTablaEstandar tr:nth-child(odd) {
+        background-color: #f8f8f8 !important;
+        /*background-color: lightgrey !important;*/
+        }
+
+    /*th{
+      background-color: #ddd;
+      font-weight: 500;
+      font-family:'Work Sans Medium';
+    }*/
+    .ceedTablaEstandar th, .ceedTablaEstandar td {
+      border: 0;
+      /*border-bottom: 2px solid #fff;
+      border-top: 2px solid #fff;
+      border: 3px solid #fff;*/
+      border: solid 1px #cdcdcd;
+      /*border: solid 5px #fff;*/
+      padding: 0.25rem;
+      font-size:0.9rem !important;
+      line-height: 1.2 !important;
+      margin: 0;
+      font-family:'Work Sans' !important;
+      text-indent: 0 !important;
+      background-color: #f2f2f2 !important;
+      /*background-color: rgba(127,135,147,0.2);*/
+    }
+    #cap{
+      /*background-color: yellow;*/
+      position: running(cap);
+      height: auto;
+      width: 5%;
+    }
+}
+@page{
+  size: A4;
+  margin-top: 3.3cm;
+  margin-bottom: 1.65cm;
+  /*margin-top: 4.0cm;
+  margin-bottom: 2.0cm;*/
+}
+@page:first{
+    /*background:rgb(188, 11, 6);
+    background-image: url('gvaEdu.svg') !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin:0;*/
+}
+@page :left {
+  /*margin-left: 2.5cm;
+  margin-right: 1.75cm;*/
+  /*margin-left: 2.8cm;
+  margin-right: 1.4cm;*/
+  margin-left: 2.4cm;
+  margin-right: 1.4cm;
+  /*margin-left: 3.5cm;
+  margin-right: 1.75cm;*/
+  @top-left{
+    content: element(cap);
+    background-image: url('gvaEdu.svg') !important;
+    background-size: 18%;
+    background-position: left center;
+    background-repeat: no-repeat;
+    border: solid 2px #666;
+  }
+  @bottom-left {
+    content: counter(page)' / 'counter(pages);
+    font-size: 1rem;
+    line-height: 1.5rem;
+    border: solid 2px #666;
+    vertical-align: top;
+  }
+}
+@page :right {
+  /*margin-left: 1.75cm;
+  margin-right: 2.5cm;*/
+  /*margin-left: 1.4cm;
+  margin-right: 2.8cm;*/
+  margin-left: 1.4cm;
+  margin-right: 2.4cm;
+  /*margin-left: 1.75cm;
+  margin-right: 3.5cm;*/
+  @top-right{
+    content: element(cap);
+    background-image: url('gvaEdu.svg') !important;
+    background-size: 15%;
+    background-position: right center;
+    background-repeat: no-repeat;
+    border: solid 2px #666;
+  }
+  @bottom-right {
+    content: counter(page)' / 'counter(pages);
+    font-size: 1rem;
+    line-height: 1.5rem;
+    vertical-align: top;
+    border: solid 2px #666;
+  }
+}

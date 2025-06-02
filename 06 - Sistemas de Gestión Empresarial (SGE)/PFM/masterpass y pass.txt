@@ -1,6 +1,0 @@
-user: admin
-pass: admin
-
-masterpass: admin
-
-2425_SANCHIS_ROLDAN_10397148
